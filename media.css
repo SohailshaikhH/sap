@@ -97,6 +97,24 @@
 
     right: 1px !important;
   }
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+    right: 111px;
+    top: 30%;
+  }
+  .thphography-text {
+    font-size: 24px;
+  }
+  p.text-center.fw-Bold.m-0.fs-5 {
+    font-size: 12px !important;
+  }
+  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
+    font-size: 12px !important;
+  }
 
   .straightline::before {
     height: 342px !important;
