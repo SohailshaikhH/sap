@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1401px) {
+@media only screen and (max-width: 1400px) {
   /* Styles for screens up to 992 pixels wide */
 
   section.typhography {
@@ -13,15 +13,15 @@
   .thphography-text {
     font-size: 47px;
   }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.866) !important;
+  }
 }
 
 /* Media query for screens with a maximum width of 992 pixels */
 @media only screen and (max-width: 1200px) {
   /* Styles for screens up to 992 pixels wide */
 
-  .straightline::before {
-    height: 342px !important;
-  }
   section .typhography {
     display: flex;
     justify-content: center;
@@ -40,6 +40,12 @@
   span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
     font-size: 17px !important;
   }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0.8) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.832) !important;
+  }
 }
 
 @media only screen and (max-width: 992px) {
@@ -47,6 +53,16 @@
   .bg-overview-col {
     background-position: bottom !important;
     background-size: 100% 46% !important;
+  }
+  .underline-effectfooter::after {
+    width: 0% !important;
+  }
+  .card-body {
+    background-color: #ffffff !important;
+  }
+  .card .card-body {
+    background-color: #ffffff !important;
+    border: 1px solid;
   }
   .straightline::before {
     height: 372px !important;
@@ -64,11 +80,14 @@
   .underline-effecttwo.visible::after {
     transform: scaleX(1.116) !important;
   }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.898) !important;
+  }
   .cards-bg {
     background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
   }
   .maincard {
-    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+    background-color: #ffc647 !important;
   }
   section .typhography {
     display: flex;
@@ -97,6 +116,9 @@
 
     right: 1px !important;
   }
+  .sticky {
+    width: 125px;
+  }
   section .typhography {
     display: flex;
     justify-content: center;
@@ -117,10 +139,20 @@
   }
 
   .straightline::before {
-    height: 342px !important;
+    height: 425px !important;
+  }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0.84) !important;
   }
   .underline-effecttwo.visible::after {
     transform: scaleX(1.126) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.857) !important;
+  }
+  .straightlinetwo::after {
+    height: 302px !important;
+    right: 0px !important;
   }
   /* Styles for screens up to 768 pixels wide */
   .bg-cards {
@@ -134,9 +166,6 @@
   }
   .underline-effect::after {
     width: 270px !important;
-  }
-  .straightline::before {
-    height: 312px !important;
   }
 
   .bg-overview-col {
@@ -154,7 +183,7 @@
     background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
   }
   .maincard {
-    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+    background-color: #ffc647 !important;
   }
 }
 
@@ -168,6 +197,19 @@
 
   .straightline::before {
     height: 0px !important;
+  }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0);
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(0) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0) !important;
+  }
+  .straightlinetwo::after {
+    height: 0px !important;
+    right: 0px !important;
   }
   /* Styles for screens up to 578 pixels wide */
   .pad-zero {

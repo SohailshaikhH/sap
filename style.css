@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-family: Roboto;
 }
 /* .pad-zero {
@@ -217,10 +217,10 @@ background-image {
 }
 .hr-line {
   background-color: #ffb000;
-  width: 69%;
   color: #ffc647;
   position: relative;
-  left: 133px;
+  transform: matrix(0.7, 0, 0, 1, 0, 1);
+
   height: 2px;
   border-radius: 10px;
 }
@@ -475,7 +475,7 @@ background-image {
 .straightline::before {
   content: "";
   position: absolute;
-  height: 377px;
+  height: 376px;
   width: 3px;
   background-color: #efa73b;
 }

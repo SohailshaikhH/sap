@@ -1,6 +1,6 @@
 window.addEventListener("scroll", function () {
   let navbar = document.getElementById("black");
-  if (window.scrollY > 10) {
+  if (window.scrollY > 6) {
     navbar.classList.add("scroll");
   } else {
     navbar.classList.remove("scroll");
@@ -11,12 +11,31 @@ window.addEventListener("scroll", function () {
   const logoWidthSticky = "125px";
   const logoWidthNormal = "180px";
 
-  if (window.scrollY > 10) {
+  if (window.scrollY > 6) {
     logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
   } else {
     logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
   }
 });
+function handleResize() {
+  const logo = document.getElementById("logo");
+
+  // Check if the screen size is above the specified breakpoint (768px)
+  if (window.innerWidth >= 998) {
+    logo.classList.add("sticky"); // Add the "sticky" class to the logo for desktop devices
+  } else {
+    logo.classList.remove("sticky"); // Remove the "sticky" class for smaller devices
+  }
+}
+
+// Initial check on page load
+handleResize();
+
+// Add the resize event listener to handle changes in screen size
+window.addEventListener("resize", handleResize);
+
+// Add the resize event listener to handle changes in screen size
+window.addEventListener("resize", handleResize);
 document.addEventListener("DOMContentLoaded", function () {
   // Get all elements with the class 'dropdown' and store them in a NodeList
   var dropdowns = document.querySelectorAll(".dropdown");
