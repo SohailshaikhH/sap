@@ -17,6 +17,7 @@ window.addEventListener("scroll", function () {
     logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
   }
 });
+
 function handleResize() {
   const logo = document.getElementById("logo");
 

@@ -74,57 +74,48 @@ textarea {
 .footerbg {
   background-color: #333658 !important;
 }
-/* .dropdown {
+.btns {
+  border-radius: 4px;
+  text-transform: uppercase;
   position: relative;
-  display: inline-block;
-  cursor: pointer;
-}
-
-.dropdown-btn {
-  border: none;
-  cursor: pointer;
-  position: relative;
-
   text-decoration: none;
+
+  border: none #ffc648;
+  padding: 1rem 2rem;
+  font-size: 1.3rem;
+  background-size: 300%;
+  transition: all 0.6s;
 }
 
-.dropdown-content {
-  padding: 0px;
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  z-index: 1;
-  list-style-type: none;
-  top: 35px;
-  left: -94px;
+.black {
+  color: black;
+  background-image: linear-gradient(90deg, white 50%, black 50%);
 }
 
-.dropdown-content a {
-  color: #333;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
+.green {
+  color: green;
+  background-image: linear-gradient(-120deg, green 50%, white 50%);
+}
+.orange {
+  background-image: linear-gradient(70deg, white 50%, orange 50%);
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
+.blue {
+  color: blue;
+  background-image: linear-gradient(160deg, white 50%, blue 50%);
 }
 
-.dropdown-content a:hover {
-  background-color: #f9f9f9;
-} */
-.dropdown:hover .dropdown-menu {
-  display: block;
+.pink {
+  color: pink;
+  background-image: linear-gradient(20deg, white 50%, pink 50%);
 }
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-  position: absolute;
-  right: 0px;
-  border-radius: 0px;
-  border: none;
-  min-width: 100%;
+
+.btns:hover {
+  color: #fff;
+  background-position: 100%;
+  transform: translateX(0.5rem);
 }
+
 .typhography {
   display: flex;
   justify-content: center;
@@ -499,4 +490,42 @@ background-image {
 }
 .font-colorfooter {
   color: #909090;
+}
+.plussign {
+  position: relative;
+}
+
+.plussign::after {
+  position: absolute;
+
+  content: "+";
+}
+.plussigntwo {
+  position: relative;
+}
+
+.plussigntwo::after {
+  position: absolute;
+
+  content: "M";
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  transform: translateY(0px);
+  opacity: 1;
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  right: 0px;
+  transition: all 2s ease-in-out;
+}
+ul.dropdown-menu.show {
+  border-radius: 0px;
+  border: none;
+  transform: translateY(70px);
+  opacity: 0;
+}
+.dropdown-item {
+  border-bottom: 2px solid orange;
 }
