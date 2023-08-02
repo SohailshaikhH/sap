@@ -1,0 +1,172 @@
+@media only screen and (max-width: 1401px) {
+  /* Styles for screens up to 992 pixels wide */
+
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: absolute;
+    right: 136px;
+    margin-top: 26px;
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  /* Styles for screens up to 992 pixels wide */
+  section.typhography {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: absolute;
+    right: 136px;
+    margin-top: 35px;
+  }
+}
+/* Media query for screens with a maximum width of 992 pixels */
+@media only screen and (max-width: 1200px) {
+  /* Styles for screens up to 992 pixels wide */
+
+  .straightline::before {
+    height: 342px !important;
+  }
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* Styles for screens up to 992 pixels wide */
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 46% !important;
+  }
+  .straightline::before {
+    height: 372px !important;
+  }
+  .straightlinetwo::after {
+    height: 277px !important;
+    right: 0px !important;
+  }
+  .card-text {
+    height: 100% !important;
+  }
+  .card-text {
+    height: 100% !important;
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(1.116) !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+  }
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media only screen and (max-width: 768px) {
+  .straightlinetwo::after {
+    height: 0px !important;
+
+    right: 1px !important;
+  }
+
+  .straightline::before {
+    height: 342px !important;
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(1.126) !important;
+  }
+  /* Styles for screens up to 768 pixels wide */
+  .bg-cards {
+    background: linear-gradient(90deg, #ffc64780 100%, #ededed80 0%) !important;
+  }
+  .txt-ending::after {
+    width: 0px !important;
+  }
+  .txt-ending::before {
+    width: 0px !important;
+  }
+  .underline-effect::after {
+    width: 270px !important;
+  }
+  .straightline::before {
+    height: 312px !important;
+  }
+
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 37% !important;
+  }
+  .vertical-line.visible {
+    height: 323px !important;
+    transform: scaleY(1) !important;
+  }
+  .vertical-line {
+    top: -208px !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+  }
+}
+
+/* Media query for screens with a maximum width of 578 pixels */
+@media only screen and (max-width: 578px) {
+  .straightlinetwo::after {
+    height: 0px !important;
+
+    right: 1px !important;
+  }
+
+  .straightline::before {
+    height: 0px !important;
+  }
+  /* Styles for screens up to 578 pixels wide */
+  .pad-zero {
+    padding: 21px !important;
+  }
+  .bg-cards {
+    background: linear-gradient(90deg, #ffc64780 50%, #ededed80 50%);
+  }
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 35% !important;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .vertical-line.visible {
+    height: 400px !important;
+    transform: scaleY(0.7) !important;
+  }
+
+  .vertical-line {
+    top: -173px !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+  }
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-left: 20px;
+    margin-left: 20px;
+    text-align: start !important;
+  }
+}
