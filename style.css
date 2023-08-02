@@ -74,7 +74,7 @@ textarea {
 .footerbg {
   background-color: #333658 !important;
 }
-.dropdown {
+/* .dropdown {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -114,6 +114,16 @@ textarea {
 
 .dropdown-content a:hover {
   background-color: #f9f9f9;
+} */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  right: 0px;
+  border-radius: 0px;
+  border: none;
+  min-width: 100%;
 }
 .typhography {
   display: flex;

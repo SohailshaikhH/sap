@@ -6,6 +6,46 @@ window.addEventListener("scroll", function () {
     navbar.classList.remove("scroll");
   }
 });
+window.addEventListener("scroll", function () {
+  const logo = document.getElementById("logo");
+  const logoWidthSticky = "125px";
+  const logoWidthNormal = "180px";
+
+  if (window.scrollY > 10) {
+    logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
+  } else {
+    logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
+  }
+});
+document.addEventListener("DOMContentLoaded", function () {
+  // Get all elements with the class 'dropdown' and store them in a NodeList
+  var dropdowns = document.querySelectorAll(".dropdown");
+
+  // Loop through each dropdown element
+  dropdowns.forEach(function (dropdown) {
+    // Add an event listener for the 'mouseenter' event (equivalent to .hover() in jQuery)
+    dropdown.addEventListener("mouseenter", function () {
+      // Add the 'show' class to the current dropdown element
+      this.classList.add("show");
+      // Find the child element with the class 'dropdown-menu' and add the 'show' class to it
+      var dropdownMenu = this.querySelector(".dropdown-menu");
+      if (dropdownMenu) {
+        dropdownMenu.classList.add("show");
+      }
+    });
+
+    // Add an event listener for the 'mouseleave' event (equivalent to the second function in .hover() in jQuery)
+    dropdown.addEventListener("mouseleave", function () {
+      // Remove the 'show' class from the current dropdown element
+      this.classList.remove("show");
+      // Find the child element with the class 'dropdown-menu' and remove the 'show' class from it
+      var dropdownMenu = this.querySelector(".dropdown-menu");
+      if (dropdownMenu) {
+        dropdownMenu.classList.remove("show");
+      }
+    });
+  });
+});
 
 $(document).ready(function () {
   // Scroll-to-Target
