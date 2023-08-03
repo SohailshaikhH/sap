@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: Roboto;
 }
 /* .pad-zero {
@@ -32,6 +32,9 @@ textarea {
 }
 .monospace {
   letter-spacing: 6px;
+}
+#logo {
+  transition: width 0.3s ease-in-out; /* Adjust the duration (0.3s) to control the speed of the transition */
 }
 
 .heading-one {
@@ -119,11 +122,11 @@ textarea {
 .typhography {
   display: flex;
   justify-content: center;
-  align-items: end;
+  align-items: start;
   flex-direction: column;
   position: absolute;
   right: 229px;
-  top: 29%;
+  top: 30%;
 }
 
 .thphography-text {
@@ -131,12 +134,7 @@ textarea {
   color: white;
   position: relative;
   color: transparent;
-  background-image: linear-gradient(
-    to right,
-    rgb(0, 0, 0),
-    rgb(0, 0, 0),
-    transparent
-  );
+  background-image: linear-gradient(to right, #3c3d63, #3c3d63, transparent);
   background-size: 200% 100%;
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -150,7 +148,7 @@ textarea {
   top: 0;
   left: 0;
   -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  -webkit-text-stroke-color: #3c3d63;
   -webkit-text-fill-color: transparent;
   opacity: 0;
   animation: 2s fadein ease-in-out forwards;
