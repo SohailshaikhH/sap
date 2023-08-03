@@ -125,7 +125,7 @@ textarea {
   align-items: start;
   flex-direction: column;
   position: absolute;
-  right: 229px;
+  right: 129px;
   top: 30%;
 }
 
@@ -526,4 +526,7 @@ ul.dropdown-menu.show {
 }
 .dropdown-item {
   border-bottom: 2px solid orange;
+}
+.footercolor {
+  background-color: #272a50;
 }

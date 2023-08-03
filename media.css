@@ -10,6 +10,9 @@
     right: 200px;
     margin-top: 0px;
   }
+  .display-6 {
+    font-size: 25px !important;
+  }
   .thphography-text {
     font-size: 47px;
   }
@@ -25,12 +28,16 @@
   section .typhography {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     margin-top: 0px;
-    right: 165px;
-    top: 29%;
+    right: 122px;
+    top: 31%;
   }
+  .display-6 {
+    font-size: 25px !important;
+  }
+
   .thphography-text {
     font-size: 40px;
   }
@@ -45,6 +52,9 @@
   }
   .underline-effectthree.visible::after {
     transform: scaleX(0.832) !important;
+  }
+  .card-text {
+    font-size: 17px !important;
   }
 }
 
@@ -95,12 +105,16 @@
   section .typhography {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     margin-top: 0px;
-    right: 140px;
-    top: 29%;
+    right: 122px;
+    top: 31%;
   }
+  .display-6 {
+    font-size: 20px !important;
+  }
+
   .thphography-text {
     font-size: 30px;
   }
@@ -129,11 +143,17 @@
   section .typhography {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     flex-direction: column;
     margin-top: 0px;
-    right: 111px;
-    top: 30%;
+    right: 90px;
+    top: 31%;
+  }
+  .display-6 {
+    font-size: 20px !important;
+  }
+  .fw-light.fs-2.mt-5.pt-3.mb-0 {
+    margin-top: 0px !important;
   }
   .thphography-text {
     font-size: 24px;
@@ -252,14 +272,22 @@
   }
   section .typhography {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     flex-direction: column;
     margin-top: 0px;
-    text-align: start !important;
-    position: absolute;
+    /* text-align: start !important; */
+    position: absolute !important;
     right: 0px;
     left: 0px;
+    top: 0px;
+    padding-left: 15px;
+  }
+  .display-6 {
+    font-size: 18px !important;
+  }
+  .fw-light.display-6.mt-5.pt-3.mb-0 {
+    margin-top: 0px !important;
   }
   .thphography-text {
     font-size: 23px;
