@@ -530,3 +530,6 @@ ul.dropdown-menu.show {
 .footercolor {
   background-color: #272a50;
 }
+a:hover {
+  color: #d7b778 !important;
+}
