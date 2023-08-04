@@ -15,7 +15,6 @@ textarea {
   position: sticky;
   top: -1px;
   z-index: 1020;
-  transition: 0.3s ease-in-out;
 }
 .font-colors {
   color: #ffc647;
@@ -52,7 +51,7 @@ textarea {
   src: url(fonts/Roboto-Regular.ttf);
 }
 .scroll {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) !important;
   /* Background color on scroll */
 }
 
@@ -78,16 +77,17 @@ textarea {
   background-color: #333658 !important;
 }
 .btns {
-  border-radius: 4px;
+  border-radius: 0px;
   text-transform: uppercase;
   position: relative;
   text-decoration: none;
-
   border: none #ffc648;
-  padding: 1rem 2rem;
-  font-size: 1.3rem;
+  padding: 2px 8px !important;
+  font-size: 1.1rem;
   background-size: 300%;
   transition: all 0.6s;
+  border: 2px solid;
+  box-shadow: 0px 0px 14px -4px;
 }
 
 .black {
@@ -358,6 +358,25 @@ background-image {
 .underline-effectform.visible::after {
   transform: scaleX(1); /* Show the underline with animation when in view */
 }
+.underline-effectformtwo {
+  position: relative;
+}
+
+.underline-effectformtwo::after {
+  content: "";
+  position: absolute;
+  width: 105%;
+  height: 2px;
+  background-color: #efa73b;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 2s ease;
+  bottom: -13px;
+}
+
+.underline-effectformtwo.visible::after {
+  transform: scaleX(1); /* Show the underline with animation when in view */
+}
 
 .underline-effectfooter {
   position: relative;
@@ -442,6 +461,21 @@ background-image {
   height: 363px;
   transform: scaleY(1);
 }
+.vertical-linethree {
+  position: absolute;
+  width: 2px;
+  height: 0;
+  background-color: #fec345;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 2s ease;
+  right: 49%;
+  border-radius: 10px;
+}
+.vertical-linethree.visible {
+  height: 410px;
+  transform: scaleY(1);
+}
 .footersec {
   background-color: #ededed;
 }
@@ -517,6 +551,7 @@ background-image {
   position: absolute;
   right: 0px;
   transition: all 2s ease-in-out;
+  width: 300px;
 }
 ul.dropdown-menu.show {
   border-radius: 0px;
@@ -525,11 +560,37 @@ ul.dropdown-menu.show {
   opacity: 0;
 }
 .dropdown-item {
-  border-bottom: 2px solid orange;
+  white-space: normal;
 }
 .footercolor {
   background-color: #272a50;
 }
 a:hover {
-  color: #d7b778 !important;
+  color: #fec345 !important;
+}
+.infoshotchild {
+  background-color: #333658;
+  margin-left: 6px;
+}
+.infoshot {
+  position: absolute;
+  min-width: 100%;
+  left: 16%;
+  right: 0px;
+}
+.infoshotchild::before {
+  content: "";
+  border-top: 2px solid;
+  width: 100px;
+  height: 90px;
+  position: absolute;
+  border-top: 3px solid #fec345;
+  border-left: 3px solid #fec345;
+  left: -20px;
+  top: -23px;
+}
+
+.form-sectiontwo {
+  padding-bottom: 90px;
+  background: linear-gradient(90deg, #ffffff00 90.9%, #ffc648 90.2%);
 }

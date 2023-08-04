@@ -23,126 +23,134 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header class="container-fluid p-0" style="background-color: #ffd54f">
-      <div class="py-2">
-        <div class="container text-end">
-          <a
-            href="mailto:contact@bicxo.co"
-            class="text-end text-decoration-none font-color"
-          >
-            <i class="bi bi-envelope-at-fill px-2 font-color"></i
-            >contact@scientificangle.in</a
-          >
-        </div>
+    <header
+      class="container-fluid p-0"
+      style="background-color: #ffd54f"
+    ></header>
+
+    <div class="py-2" style="background-color: #ffd54f">
+      <div class="container text-end">
+        <a
+          href="mailto:contact@bicxo.co"
+          class="text-end text-decoration-none font-color"
+        >
+          <i class="bi bi-envelope-fill px-2 font-color"></i
+          >contact@scientificangle.in</a
+        >
       </div>
-      <div class="container-fluid sticky-top" id="black">
-        <nav class="navbar navbar-expand-lg p-0">
-          <div class="container p-0">
-            <a class="navbar-brand" href="#"
-              ><img
-                id="logo"
-                src="images/logo.png"
-                loading="lazy"
-                style="width: 180px"
-                alt="SAP"
-            /></a>
+    </div>
+    <div
+      class="container-fluid sticky-top"
+      id="black"
+      style="background-color: #ffd54f"
+    >
+      <nav class="navbar navbar-expand-lg p-0">
+        <div class="container p-0">
+          <a class="navbar-brand" href="#"
+            ><img
+              id="logo"
+              src="images/logo.png"
+              loading="lazy"
+              style="width: 180px"
+              alt="SAP"
+          /></a>
 
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarTogglerDemo02"
-              aria-controls="navbarTogglerDemo02"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-            <div
-              class="collapse navbar-collapse justify-content-end"
-              id="navbarTogglerDemo02"
-            >
-              <div class="wrapper justify-content-end">
-                <div>
-                  <ul class="navbar-nav align-items-center gap-4">
-                    <li class="nav-item position-relative">
-                      <a
-                        class="nav-link active strline font-color"
-                        aria-current="page"
-                        href=""
-                        >Home</a
-                      >
-                    </li>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarTogglerDemo02"
+          >
+            <div class="wrapper justify-content-end">
+              <div>
+                <ul class="navbar-nav align-items-center gap-4">
+                  <li class="nav-item position-relative">
+                    <a
+                      class="nav-link active strline font-color"
+                      aria-current="page"
+                      href=""
+                      >Home</a
+                    >
+                  </li>
 
-                    <li class="nav-item dropdown">
-                      <a
-                        class="font-color nav-link dropdown-toggle text-center"
-                        aria-expanded="false"
-                      >
-                        Our Work
-                      </a>
-                      <ul class="dropdown-menu">
-                        <li>
-                          <a class="dropdown-item" href=""
-                            >Medico-marketing communication
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href=""
-                            >Continued Medical Education & Power point
-                            presentations</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href=""
-                            >Patient education content
-                          </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href="">KOL Management </a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item" href=""
-                            >Manuscript writing</a
-                          >
-                        </li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a
-                        class="nav-link font-color"
-                        href="https://stage112.webdakaar.in/sap/blog/"
-                        >Blog
-                      </a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link font-color" href="">Contact us </a>
-                    </li>
-                  </ul>
-                </div>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="font-color nav-link dropdown-toggle text-center"
+                      aria-expanded="false"
+                    >
+                      Our Work
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Medico-marketing communication
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Continued Medical Education & Power point
+                          presentations</a
+                        >
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href=""
+                          >Patient education content
+                        </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">KOL Management </a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="">Manuscript writing</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link font-color"
+                      href="https://stage112.webdakaar.in/sap/blog/"
+                      >Blog
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link font-color" href="contactus.html"
+                      >Contact us
+                    </a>
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-        </nav>
-      </div>
-
-      <section class="position-relative mt-5">
-        <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
-        <div class="typhography">
-          <h1 class="display-6 monospace fw-light">To create what we call</h1>
-          <h1 class="thphography-text display-3 headind-color monospace">
-            ELOQUENT TEXT
-          </h1>
-          <p class="fw-light display-6 mt-5 pt-3 mb-0">
-            Eloquent text Is the content in which
-          </p>
-          <span class="fw-Bold headind-color display-6 mb-0">
-            the doctor find merit, <br />and sponsor finds value
-          </span>
         </div>
-      </section>
-    </header>
+      </nav>
+    </div>
+
+    <section class="position-relative">
+      <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
+      <div class="typhography">
+        <h1 class="display-6 monospace fw-light">To create what we call</h1>
+        <h1 class="thphography-text display-3 headind-color monospace">
+          ELOQUENT TEXT
+        </h1>
+        <p class="fw-light display-6 mt-5 pt-3 mb-0">
+          Eloquent text Is the content in which
+        </p>
+        <span class="fw-Bold headind-color display-6 mb-0">
+          the doctor find merit, <br />and sponsor finds value
+        </span>
+      </div>
+    </section>
+
     <section class="bg-overview-col">
       <div class="container">
         <div class="headinds">
@@ -890,7 +898,8 @@
                       aria-current="page"
                       href="mailto:contact@bicxo.co"
                     >
-                      <i class="bi bi-envelope-fill"></i> contact@bicxo.co</a
+                      <i class="bi bi-envelope-fill"></i>
+                      contact@scientificangle.com</a
                     >
                   </li>
                 </ul>

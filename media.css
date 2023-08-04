@@ -60,9 +60,27 @@
 
 @media only screen and (max-width: 992px) {
   /* Styles for screens up to 992 pixels wide */
+  .vertical-linethree {
+    display: none !important;
+  }
+
   .bg-overview-col {
     background-position: bottom !important;
     background-size: 100% 46% !important;
+  }
+  .infoshotchild {
+    background-color: #333658;
+    margin-left: 6px;
+  }
+  .infoshot {
+    position: static !important;
+    min-width: 0% !important;
+    left: 0% !important;
+    right: 0px !important;
+  }
+  .infoshotchild::before {
+    left: 6px !important;
+    top: 0px !important;
   }
   .dropdown-menu {
     border: none !important;
@@ -128,6 +146,18 @@
     position: static !important;
     right: 0px !important;
   }
+  .infoshotchild {
+    margin-left: 0px !important;
+  }
+
+  .form-sectiontwo {
+    padding-bottom: 10px !important;
+    background: linear-gradient(
+      90deg,
+      #ffffff00 100%,
+      #ffc648 90.2%
+    ) !important;
+  }
 }
 
 /* Media query for screens with a maximum width of 768 pixels */
@@ -180,6 +210,9 @@
   .straightlinetwo::after {
     height: 302px !important;
     right: 0px !important;
+  }
+  .underline-effectformtwo.visible::after {
+    transform: scaleX(0.8) !important;
   }
   /* Styles for screens up to 768 pixels wide */
   .bg-cards {
@@ -280,7 +313,7 @@
     position: absolute !important;
     right: 0px;
     left: 0px;
-    top: 0px;
+    top: 30px !important;
     padding-left: 15px;
   }
   .display-6 {
@@ -310,5 +343,8 @@
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     position: static !important;
     right: 0px !important;
+  }
+  .fs-3 {
+    font-size: 19px !important;
   }
 }

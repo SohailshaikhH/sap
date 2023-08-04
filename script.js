@@ -204,6 +204,25 @@ const observerform = new IntersectionObserver(onScrollHandlering, {
 headinger.forEach((heading) => {
   observerform.observe(heading);
 });
+const headingerformtwo = document.querySelectorAll(".underline-effectformtwo");
+
+const onScrollHandleringtwo = (entries, observersformtwo) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      observersformtwo.unobserve(entry.target);
+    }
+  });
+};
+
+const observerformtwo = new IntersectionObserver(onScrollHandleringtwo, {
+  rootMargin: "0px",
+  threshold: 0.3,
+});
+
+headingerformtwo.forEach((heading) => {
+  observerformtwo.observe(heading);
+});
 
 const heading = document.querySelectorAll(".underline-effectfooter");
 
@@ -337,3 +356,97 @@ const liness = document.querySelectorAll(".vertical-line");
 liness.forEach((line) => {
   obserververticletwo.observe(line);
 });
+
+const onScrollHandleverthree = (entries, obserververticlethree) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("visible");
+      obserververticlethree.unobserve(entry.target);
+    }
+  });
+};
+
+// Creating the IntersectionObserver with the appropriate callback function and options
+const obserververticlethree = new IntersectionObserver(onScrollHandleverthree, {
+  root: null,
+  rootMargin: "0px",
+  threshold: 0.3,
+});
+
+// Query all elements with the class "vertical-line" and observe them with the IntersectionObserver
+const linessthree = document.querySelectorAll(".vertical-linethree");
+linessthree.forEach((line) => {
+  obserververticlethree.observe(line);
+});
+
+// /validation/
+function validateForm() {
+  var nameValid = validateName();
+  var emailValid = validateEmail();
+  var numberValid = validateNumber();
+  var companyValid = validateCompany();
+
+  return nameValid && emailValid && numberValid && companyValid;
+}
+
+function validateName() {
+  var nameInput = document.getElementById("nameInput");
+  var nameError = document.getElementById("nameError");
+  var nameRegex = /^[A-Za-z\s]+$/;
+
+  nameError.innerHTML = "";
+
+  if (!nameRegex.test(nameInput.value)) {
+    nameError.innerHTML = "Invalid Name. Only letters and spaces are allowed.";
+    return false;
+  }
+
+  return true;
+}
+
+function validateEmail() {
+  var emailInput = document.getElementById("emailInput");
+  var emailError = document.getElementById("emailError");
+  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+  emailError.innerHTML = "";
+
+  if (!emailRegex.test(emailInput.value)) {
+    emailError.innerHTML = "Invalid Email Address.";
+    return false;
+  }
+
+  return true;
+}
+
+function validateNumber() {
+  var numberInput = document.getElementById("numberInput");
+  var numberError = document.getElementById("numberError");
+  var numberRegex = /^\d{10}$/;
+
+  numberError.innerHTML = "";
+
+  if (numberInput.value && !numberRegex.test(numberInput.value)) {
+    numberError.innerHTML =
+      "Invalid Mobile Number. Please enter a 10-digit number.";
+    return false;
+  }
+
+  return true;
+}
+
+function validateCompany() {
+  var companyInput = document.getElementById("companyInput");
+  var companyError = document.getElementById("companyError");
+
+  companyError.innerHTML = "";
+
+  if (!companyInput.value.trim()) {
+    companyError.innerHTML = "Company Name cannot be empty.";
+    return false;
+  }
+
+  return true;
+}
+
+// /validation/
