@@ -265,7 +265,7 @@ background-image {
   content: "";
   position: absolute;
   left: 0;
-  width: 353px;
+  width: 450px;
   height: 2px;
   background-color: #fec345;
   transform: scaleX(0);
@@ -286,7 +286,7 @@ background-image {
   left: -15px;
   width: 94%;
   height: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -306,7 +306,7 @@ background-image {
   left: -15px;
   width: 100%;
   height: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -326,7 +326,7 @@ background-image {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -347,7 +347,7 @@ background-image {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -367,7 +367,7 @@ background-image {
   position: absolute;
   width: 105%;
   height: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -387,7 +387,7 @@ background-image {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: #ffc648;
+  background-color: #fec345;
   transform: scaleX(0);
   transform-origin: left;
   transition: transform 2s ease;
@@ -458,7 +458,7 @@ background-image {
 }
 
 .vertical-linetwo.visible {
-  height: 363px;
+  height: 379px;
   transform: scaleY(1);
 }
 .vertical-linethree {
@@ -473,7 +473,7 @@ background-image {
   border-radius: 10px;
 }
 .vertical-linethree.visible {
-  height: 410px;
+  height: 432px;
   transform: scaleY(1);
 }
 .footersec {

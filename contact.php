@@ -8,7 +8,7 @@ use PHPMailer\PHPMailer\Exception;
 require 'vendor/autoload.php';
 
 
-if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["company"]) && !empty($_POST["textarea"])) {
+if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]) && !empty($_POST["textarea"])) {
 
     if (isset($_POST['g-recaptcha-response']) && !empty($_POST['g-recaptcha-response']))
 
@@ -67,16 +67,15 @@ if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]
     $mail->From = "noreply.bicxo@gmail.com";
     $mail->FromName = "Bicxo";
     $mail->addAddress('wddcdeveloper@gmail.com');
-    $mail->addAddress('gaurav@webdakaar.com');
     $mail->isHTML(true);
-    $mail->Subject = "Contact Us : " . $company;
-    $mail->Body = "<table><tr><td>Name : </td><td>" . $name . "</td></tr>" . "<tr><td>Email : </td><td>" . $email . "</td></tr>" . "<tr><td>Mobile Number : </td><td>" . $number . "</td></tr>" . "<tr><td>Company : </td><td>" . $company . "</td></tr>" . "<tr><td>textarea : </td><td>" . $textarea . "</td></tr></table>";
-    $mail->AltBody = "Name: " . $name . ",Email: " . $email . ",Mobile Number: " . $number . ",Company: " . $company . ", Message: " . $textarea;
+    $mail->Subject = "Contact Us : " . $email;
+    $mail->Body = "<table><tr><td>Name : </td><td>" . $name . "</td></tr>" . "<tr><td>Email : </td><td>" . $email . "</td></tr>" . "<tr><td>Mobile Number : </td><td>" . $number . "</td></tr>" . "<tr><td>textarea : </td><td>" . $textarea . "</td></tr></table>";
+    $mail->AltBody = "Name: " . $name . ",Email: " . $email . ",Mobile Number: " . $number . ", Message: " . $textarea;
     if (!$mail->send()) {
         echo '<script type="text/javascript">alert("Something Went Wrong.");</script>';
     } else {
         echo '<script type="text/javascript">
-                window.location.href="thank-you.php";
+                window.location.href="thankyou.php";
             </script>';
     }
 

@@ -1,71 +1,6 @@
-window.addEventListener("scroll", function () {
-  let navbar = document.getElementById("black");
-  if (window.scrollY > 6) {
-    navbar.classList.add("scroll");
-  } else {
-    navbar.classList.remove("scroll");
-  }
-});
-window.addEventListener("scroll", function () {
-  const logo = document.getElementById("logo");
-  const logoWidthSticky = "125px";
-  const logoWidthNormal = "180px";
-
-  if (window.scrollY > 6) {
-    logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
-  } else {
-    logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
-  }
-});
-
-function handleResize() {
-  const logo = document.getElementById("logo");
-
-  // Check if the screen size is above the specified breakpoint (768px)
-  if (window.innerWidth >= 998) {
-    logo.classList.add("sticky"); // Add the "sticky" class to the logo for desktop devices
-  } else {
-    logo.classList.remove("sticky"); // Remove the "sticky" class for smaller devices
-  }
-}
-
 // Initial check on page load
-handleResize();
 
 // Add the resize event listener to handle changes in screen size
-window.addEventListener("resize", handleResize);
-
-// Add the resize event listener to handle changes in screen size
-window.addEventListener("resize", handleResize);
-document.addEventListener("DOMContentLoaded", function () {
-  // Get all elements with the class 'dropdown' and store them in a NodeList
-  var dropdowns = document.querySelectorAll(".dropdown");
-
-  // Loop through each dropdown element
-  dropdowns.forEach(function (dropdown) {
-    // Add an event listener for the 'mouseenter' event (equivalent to .hover() in jQuery)
-    dropdown.addEventListener("mouseenter", function () {
-      // Add the 'show' class to the current dropdown element
-      this.classList.add("show");
-      // Find the child element with the class 'dropdown-menu' and add the 'show' class to it
-      var dropdownMenu = this.querySelector(".dropdown-menu");
-      if (dropdownMenu) {
-        dropdownMenu.classList.add("show");
-      }
-    });
-
-    // Add an event listener for the 'mouseleave' event (equivalent to the second function in .hover() in jQuery)
-    dropdown.addEventListener("mouseleave", function () {
-      // Remove the 'show' class from the current dropdown element
-      this.classList.remove("show");
-      // Find the child element with the class 'dropdown-menu' and remove the 'show' class from it
-      var dropdownMenu = this.querySelector(".dropdown-menu");
-      if (dropdownMenu) {
-        dropdownMenu.classList.remove("show");
-      }
-    });
-  });
-});
 
 $(document).ready(function () {
   // Scroll-to-Target
@@ -244,74 +179,6 @@ heading.forEach((heading) => {
   observerfooter.observe(heading);
 });
 
-function validateForm() {
-  var nameValid = validateName();
-  var emailValid = validateEmail();
-  var numberValid = validateNumber();
-  var companyValid = validateCompany();
-
-  return nameValid && emailValid && numberValid && companyValid;
-}
-
-function validateName() {
-  var nameInput = document.getElementById("nameInput");
-  var nameError = document.getElementById("nameError");
-  var nameRegex = /^[A-Za-z\s]+$/;
-
-  nameError.innerHTML = "";
-
-  if (!nameRegex.test(nameInput.value)) {
-    nameError.innerHTML = "Invalid Name. Only letters and spaces are allowed.";
-    return false;
-  }
-
-  return true;
-}
-
-function validateEmail() {
-  var emailInput = document.getElementById("emailInput");
-  var emailError = document.getElementById("emailError");
-  var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-
-  emailError.innerHTML = "";
-
-  if (!emailRegex.test(emailInput.value)) {
-    emailError.innerHTML = "Invalid Email Address.";
-    return false;
-  }
-
-  return true;
-}
-
-function validateNumber() {
-  var numberInput = document.getElementById("numberInput");
-  var numberError = document.getElementById("numberError");
-  var numberRegex = /^\d{10}$/;
-
-  numberError.innerHTML = "";
-
-  if (numberInput.value && !numberRegex.test(numberInput.value)) {
-    numberError.innerHTML =
-      "Invalid Mobile Number. Please enter a 10-digit number.";
-    return false;
-  }
-
-  return true;
-}
-
-function validateCompany() {
-  var companyInput = document.getElementById("companyInput");
-  var companyError = document.getElementById("companyError");
-
-  companyError.innerHTML = "";
-
-  if (!companyInput.value.trim()) {
-    companyError.innerHTML = "Company Name cannot be empty.";
-    return false;
-  }
-
-  return true;
-}
 // Function to handle the intersection of elements with the observer
 const onScrollHandlever = (entries, obserververticle) => {
   entries.forEach((entry) => {
@@ -384,7 +251,7 @@ function validateForm() {
   var nameValid = validateName();
   var emailValid = validateEmail();
   var numberValid = validateNumber();
-  var companyValid = validateCompany();
+  var companyValid = validatetextarea();
 
   return nameValid && emailValid && numberValid && companyValid;
 }
@@ -435,14 +302,14 @@ function validateNumber() {
   return true;
 }
 
-function validateCompany() {
-  var companyInput = document.getElementById("companyInput");
-  var companyError = document.getElementById("companyError");
+function validatetextarea() {
+  var textareaInput = document.getElementById("textareaInput");
+  var textareaError = document.getElementById("textareaError");
 
-  companyError.innerHTML = "";
+  textareaError.innerHTML = "";
 
-  if (!companyInput.value.trim()) {
-    companyError.innerHTML = "Company Name cannot be empty.";
+  if (!textareaInput.value.trim()) {
+    textareaError.innerHTML = "Company Name cannot be empty.";
     return false;
   }
 

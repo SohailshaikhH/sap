@@ -34,6 +34,9 @@
     right: 122px;
     top: 31%;
   }
+  .underline-effect::after {
+    top: 105px !important;
+  }
   .display-6 {
     font-size: 25px !important;
   }
