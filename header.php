@@ -23,8 +23,9 @@
                                 <a class="nav-link strline font-color" aria-current="page" href="index.php">Home</a>
                             </li>
 
-                            <li class="nav-item dropdown">
-                                <a class="font-color nav-link dropdown-toggle text-center" aria-expanded="false">
+                            <li class="nav-item dropdown ">
+                                <a class="nav-link pointer font-color  dropdown-toggle text-center"
+                                    aria-expanded="false">
                                     Our Work
                                 </a>
                                 <ul class="dropdown-menu">

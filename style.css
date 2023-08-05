@@ -5,9 +5,16 @@ body {
   font-size: 1.2rem;
   font-family: Roboto;
 }
+.pointer {
+  cursor: pointer;
+}
 /* .pad-zero {
   padding: 10px !important;
 } */
+.form-control:focus {
+  border-color: #fec345;
+  box-shadow: 0 0 0 0.2rem rgb(254 195 69 / 61%);
+}
 textarea {
   resize: none;
 }
@@ -500,7 +507,7 @@ background-image {
   position: absolute;
   height: 376px;
   width: 3px;
-  background-color: #efa73b;
+  background-color: #fec345;
 }
 .maincard {
   background: linear-gradient(90deg, #ffffff00 51%, #ffc647 50%);
@@ -517,7 +524,7 @@ background-image {
   position: absolute;
   height: 338px;
   width: 2px;
-  background-color: #efa73b;
+  background-color: #fec345;
   right: 0px;
 }
 .font-colorfooter {
@@ -566,7 +573,7 @@ ul.dropdown-menu.show {
   background-color: #272a50;
 }
 a:hover {
-  color: #fec345 !important;
+  color: #ffb200 !important;
 }
 .infoshotchild {
   background-color: #333658;

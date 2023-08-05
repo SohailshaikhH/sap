@@ -3,7 +3,7 @@
         <div class="footer-top">
             <div class="row">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <p class="footer-logo" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                    <p class="footer-logo" data-aos="fade-up" data-aos-delay="100" data-aos-duration="600"
                         data-aos-easing="ease-in-out">
                         <a href="index.php">
                             <img hre alt="best-bi-tool-BiCXO_logo" src="images/logos/white logo.png" loading="lazy"
@@ -50,7 +50,7 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
-                    <h3 class="text-white" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                    <h3 class="text-white" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000"
                         data-aos-easing="ease-in-out">
                         LINKS
                     </h3>
@@ -72,7 +72,7 @@
                 </div>
                 <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
                     <script type="IN/FollowCompany" data-id="69413451" data-counter="right"></script>
-                    <div class="contaienr" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                    <div class="contaienr" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
                         data-aos-easing="ease-in-out">
                         <h3 class="fw-Bold text-white">CONTACT US</h3>
                         <ul class="navbar-nav">

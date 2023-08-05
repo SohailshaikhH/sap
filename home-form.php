@@ -67,7 +67,7 @@ if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]
     $mail->FromName = "Bicxo";
     $mail->addAddress('wddcdeveloper@gmail.com');
     $mail->isHTML(true);
-    $mail->Subject = "Contact Us : " . $email;
+    $mail->Subject = "Home page: " . $email;
     $mail->Body = "<table><tr><td>Name : </td><td>" . $name . "</td></tr>" . "<tr><td>Email : </td><td>" . $email . "</td></tr>" . "<tr><td>Mobile Number : </td><td>" . $number . "</td></tr></table>";
     $mail->AltBody = "Name: " . $name . ",Email: " . $email . ",Mobile Number: " . $number;
     if (!$mail->send()) {

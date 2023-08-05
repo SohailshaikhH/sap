@@ -1,19 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>sap</title>
-    <!-- Add Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="images/fevicon.jpg" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="media.css  " />
-    <!-- Add custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-</head>
+<?php
+include 'head.php'
+  ?>
 
 <body>
     <header>
@@ -21,7 +11,7 @@
     include 'header.php';
     ?>
     </header>
-    <section class="form-sectiontwo mb-5 pb-4">
+    <section class="form-sectiontwo mb-5  pad-zero">
         <div class="container">
             <div class="underline-effect"></div>
             <h1 class="monospace display-5 headind-color py-5 m-0">GET IN TOUCH</h1>
@@ -74,7 +64,8 @@
                     </form>
                 </div>
                 <div class="col-lg-6 position-relative">
-                    <div class="bacgbgform">
+                    <div class="bacgbgform" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800"
+                        data-aos-easing="ease-in-out">
                         <div class="row infoshot">
                             <div class="col-lg-12 infoshotchild ps-5">
                                 <h1 class="monospace fw-bold display-5 font-colors mt-4">
@@ -112,6 +103,8 @@
                         </div>
                     </div>
                 </div>
+
+
             </div>
             <div id="nameError" class="error-message mt-5"></div>
             <div id="emailError" class="error-message"></div>
@@ -119,10 +112,14 @@
             <div id="textareaError" class="error-message"></div>
         </div>
     </section>
+    <?php
+  include 'footer.php';
+  ?>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
-    <script src="script.js" defer></script>
+    <?php
+
+  include 'script.php'
+    ?>
 </body>
 
 </html>

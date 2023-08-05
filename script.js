@@ -1,7 +1,5 @@
 // Initial check on page load
 
-// Add the resize event listener to handle changes in screen size
-
 $(document).ready(function () {
   // Scroll-to-Target
   $(".scroll-to-target").on("click", function () {
@@ -251,7 +249,6 @@ function validateForm() {
   var nameValid = validateName();
   var emailValid = validateEmail();
   var numberValid = validateNumber();
-  var companyValid = validatetextarea();
 
   return nameValid && emailValid && numberValid && companyValid;
 }
@@ -301,19 +298,9 @@ function validateNumber() {
 
   return true;
 }
-
-function validatetextarea() {
-  var textareaInput = document.getElementById("textareaInput");
-  var textareaError = document.getElementById("textareaError");
-
-  textareaError.innerHTML = "";
-
-  if (!textareaInput.value.trim()) {
-    textareaError.innerHTML = "Company Name cannot be empty.";
-    return false;
-  }
-
-  return true;
-}
+// Add the resize event listener to handle changes in screen size
+AOS.init({
+  once: true,
+});
 
 // /validation/

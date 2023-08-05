@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>sap</title>
-    <!-- Add Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
-    <link rel="icon" type="image/x-icon" href="images/fevicon.jpg" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
-    <link rel="stylesheet" href="media.css  " />
-    <!-- Add custom CSS -->
-    <link rel="stylesheet" href="style.css" />
-</head>
+<?php
+include 'head.php';
+
+?>
 
 <body>
-    <header class="container-fluid p-0" style="background-color: #ffd54f"></header>
+
 
     <div class="py-2" style="background-color: #ffd54f">
         <div class="container text-end">
@@ -89,14 +80,17 @@
     <section class="position-relative">
         <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
         <div class="typhography">
-            <h1 class="display-6 monospace fw-light">To create what we call</h1>
+            <h1 class="display-6 monospace fw-light" data-aos="zoom-out-left" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">To create what we call</h1>
             <h1 class="thphography-text display-3 headind-color monospace">
                 ELOQUENT TEXT
             </h1>
-            <p class="fw-light display-6 mt-5 pt-3 mb-0">
+            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">
                 Eloquent text Is the content in which
             </p>
-            <span class="fw-Bold headind-color display-6 mb-0">
+            <span class="fw-Bold headind-color display-6 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">
                 the doctor find merit, <br />and sponsor finds value
             </span>
         </div>
@@ -108,7 +102,8 @@
                 <div class="underline-effect"></div>
 
                 <!-- <span class="txt-endingtwo"></span> -->
-                <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4">
+                <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4" data-aos="fade-right"
+                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                     OVERVIEW
                 </h1>
             </div>
@@ -116,7 +111,8 @@
                 <div class="col-lg-6 col-md-12">
                     <div class="div">
                         <div class="overview-text">
-                            <p class="font-color py-5 pe-4 pad-zero" style="text-align: justify">
+                            <p class="font-color py-5 pe-4 pad-zero" style="text-align: justify" data-aos="fade-up"
+                                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                                 Welcome to Scientific Angle, where the language of medicine
                                 converges with the art of communication. We meticulously
                                 gather the strands of biomedical information and weave them
@@ -126,22 +122,26 @@
                                 established guidelines. Let us be your partners to fulfill
                                 your medical communication needs.
                             </p>
-                            <section class="section section-work-data">
+                            <section class="section section-work-data" data-aos="fade-right" data-aos-delay="100"
+                                data-aos-duration="800" data-aos-easing="ease-in-out">
                                 <div class="container" id="counter">
                                     <div class="row">
-                                        <div class="col-lg-4 col-md-3 col-sm-12">
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-right"
+                                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
                                                 data-count="50"></h2>
 
                                             <p class="text-center fs-6">Business Partner</p>
                                         </div>
-                                        <div class="col-lg-4 col-md-3 col-sm-12">
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
+                                            data-aos-duration="800" data-aos-easing="ease-in-out">
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo text-center main-color fs-1"
                                                 data-count="7"></h2>
 
                                             <p class="text-center fw-light fs-6">Happy Reader</p>
                                         </div>
-                                        <div class="col-lg- col-md-3 col-sm-12">
+                                        <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
+                                            data-aos-duration="800" data-aos-easing="ease-in-out">
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
                                                 data-count="300">
                                                 0
@@ -155,7 +155,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-5 col-md-12" style="height: 434px">
+                <div class="col-lg-5 col-md-12" style="height: 434px" data-aos="fade-left" data-aos-delay="100"
+                    data-aos-duration="800" data-aos-easing="ease-in-out">
                     <div class="">
                         <div class="years-rank">
                             <h2 class="countersize counternumcolor fw-bold counter-numbers text-white fs-1 ps-4"
@@ -177,7 +178,8 @@
                 <div class="underline-effect"></div>
 
                 <!-- <span class="txt-endingtwo"></span> -->
-                <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4">
+                <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4" data-aos="zoom-out-right"
+                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                     OUR WORK
                 </h1>
             </div>
@@ -188,7 +190,8 @@
             <div class="maincards">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="">
+                        <div class="" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
+                            data-aos-easing="ease-in-out">
                             <div class="card border-0 rounded-0 pb-4" style="background: none">
                                 <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
                                 <div class="card-body cards-body">
@@ -196,18 +199,20 @@
                                         Medico-marketing communication
                                     </h2>
                                     <p class="card-text pb-5 font-color mt-4" style="height: 205px">
-                                        We give a very strong rationale for writing a product. The
-                                        rationale is not just based on the clinical efficacy data
-                                        points but also based on strong scientific fundamentals
-                                        for the use
+                                        We give a very strong rationale for writing a product. The rationale is not just
+                                        based on the clinical efficacy data points but also based on strong scientific
+                                        fundamentals for the use of the drug. The content is written by selecting the
+                                        right words, using the right infographics, and using the right data.
+
                                     </p>
-                                    <a href="#" class="btn d-block p-0 text-start headind-color">Read more</a>
+                                    <a href="#" class="btn  d-block p-0 text-start headind-color">See more</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="card border-0 rounded-0">
+                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
                             <div class="straightline"></div>
                             <div class="card-body">
@@ -240,7 +245,8 @@
             <div class="maincard">
                 <div class="row">
                     <div class="col-lg-6 col-md-12">
-                        <div class="card border-0 rounded-0 mb-4">
+                        <div class="card border-0 rounded-0 mb-4" data-aos="fade-right" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
                             <div class="straightlinetwo"></div>
@@ -262,7 +268,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="card border-0 rounded-0" style="background: none">
+                        <div class="card border-0 rounded-0" style="background: none" data-aos="fade-left"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
                             <div class="card-body cards-body">
                                 <h2 href="#" role="button" class="card-title pb-4 headind-color font-color">
@@ -291,7 +298,9 @@
                         <div class="ps-1">
                             <div class="row">
                                 <div class="col">
-                                    <div class="card border-0 rounded-0 mb-4" style="background: none">
+                                    <div class="card border-0 rounded-0 mb-4" style="background: none"
+                                        data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
+                                        data-aos-easing="ease-in-out">
                                         <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
                                         <div class="card-body cards-body">
                                             <h2 class="card-title pb-5 headind-color font-color">
@@ -311,7 +320,8 @@
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-12">
-                        <div class="card border-0 rounded-0">
+                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
                             <div class="straightline"></div>
                             <div class="card-body">
@@ -342,11 +352,13 @@
     <section class="scroll-infininty">
         <div class="container">
             <div class="underline-effect"></div>
-            <h1 class="monospace display-5 headind-color pt-5 m-0">Our Clients</h1>
+            <h1 class="monospace display-5 headind-color pt-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">Our Clients</h1>
             <section class="fill-section">
                 <div class="fill-line"></div>
             </section>
-            <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading">
+            <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading" data-aos="fade-up"
+                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
@@ -420,11 +432,13 @@
                 <div class="col-lg-2"></div>
                 <div class="col">
                     <div class="py-5">
-                        <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5">
+                        <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                             what our clients say about us
                             <hr class="hr-line" />
                         </h1>
-                        <p class="font-colors text-center pb-5">
+                        <p class="font-colors text-center pb-5" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
                             Lorem ipsum dolor sit amet consectetur adipisicing Itaque
                             quidem.
                         </p>
@@ -434,7 +448,8 @@
             </div>
             <div class="row">
                 <div class="col-lg-2"></div>
-                <div class="col">
+                <div class="col" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800"
+                    data-aos-easing="ease-in-out">
                     <div class="text-row d-flex align-items-center justify-content-center">
                         <p class="font-color text-center text-justify mt-5">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -452,49 +467,58 @@
             </div>
         </div>
     </section>
-    <section class="form-section mb-5">
+    <section class="form-section mb-5 py-5 pad-zero">
         <div class="container">
             <div class="underline-effect"></div>
             <h1 class="monospace display-6 headind-color py-5 m-0">GET IN TOUCH</h1>
-            <form class="form bg-white rounded-5 py-5 pad-zero" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">
+            <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()"
+                data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="mb-3 pb-3">
+                    <div class="col-lg-16 col-md-6">
+                        <div class="mb-3 pb-1">
                             <input type="text" style="width: 100%"
                                 class="form-control rounded-0 input-col form-feild py-3" id="nameInput"
-                                placeholder="Your Name*" />
-                            <div id="nameError" class="error-message"></div>
+                                placeholder="Your Name*" name="name" />
+                            <div id="nameError" class="error-message "></div>
+
+
                         </div>
-                        <div class="mb-3 pb-3">
+                        <div class="mb- pb-1">
                             <input style="width: 100%" type="email"
                                 class="form-control input-col rounded-0 form-feild py-3" id="emailInput"
-                                placeholder="Email*" />
+                                placeholder="Email*" name="email" />
+
                             <div id="emailError" class="error-message"></div>
                         </div>
                         <div class="py-3">
                             <input style="width: 100%; height: 100%" type="tel"
                                 class="form-control input-col rounded-0 form-feild py-3" id="numberInput"
-                                placeholder="Mobile" />
+                                placeholder="Mobile" name="number" />
                             <div id="numberError" class="error-message"></div>
+
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 underline-effectform">
+                    <div class="col-lg-16 col-md-6 underline-effectformtwo">
                         <div class="vertical-linetwo"></div>
 
                         <div class=""></div>
-                        <div class="mb-3 pb-3">
+
+                        <div class="mb- pb-1">
                             <textarea style="width: 100%" class="form-control input-col rounded-0 form-feild py-3"
-                                id="messageInput" placeholder="Your Message" rows="9"></textarea>
-                            <div id="messageError" class="error-message"></div>
+                                placeholder="Your Message" rows="9 "></textarea>
+
+
                         </div>
-                        <div class="d-flex justify-content-end ">
-                            <button onsubmit="validateForm()" type="submit" style="margin-bottom: 12px;"
-                                class="btns orange headind-color p-0 mb-2 roundede">
+                        <div class="d-flex justify-content-end mt-3">
+                            <button class="btns orange headind-color p-0 roundede" style="margin-bottom:12px">
                                 SEND MESSAGE
                             </button>
                         </div>
+                        <div id="recaptcha" class="g-recaptcha" data-sitekey="6LexNu8mAAAAALsvbFA-piMG_E1Xz7vUbFqjIi7M"
+                            data-callback="onSubmit" data-size="invisible"></div>
+
                     </div>
+
                 </div>
             </form>
         </div>
@@ -504,7 +528,8 @@
             <div class="row">
                 <div class="col-lg-7 p-0">
                     <div class="" style="height: 400px">
-                        <h1 class="monospace display-5 headind-color pt-5 m-0 px-1">
+                        <h1 class="monospace display-5 headind-color pt-5 m-0 px-1" data-aos="zoom-out-right"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
                             CHECKOUT OUR BLOGS
                         </h1>
                     </div>
@@ -519,7 +544,8 @@
         <div class="container">
             <div class="row text-center">
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center mb-sm-0">
-                    <div class="card footerbg text-centerw-50 mb-4">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="500" data-aos-easing="ease-in-out">
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
                         <div class="me-0 ms-0">
                             <h4 class="pt-1 text-start px-4 text-white mt-3">
@@ -536,7 +562,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
-                    <div class="card footerbg mb-4">
+                    <div class="card footerbg mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                        data-aos-easing="ease-in-out">
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
                         <div class="me-0 ms-0">
                             <h4 class="pt-1 text-start px-4 text-white mt-3">
@@ -554,7 +581,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
-                    <div class="card footerbg text-centerw-50 mb-4">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
                         <div class="me-0 ms-0">
                             <h4 class="pt-1 text-start px-4 text-white mt-3">
@@ -576,18 +604,20 @@
             </div>
         </div>
     </section>
-    <footer> <?php
-    include 'footer.php';
-    ?>
+    <footer>
+        <?php
+        include 'footer.php';
+        include 'script.php';
+        ?>
     </footer>
+
 
     <!-- Create a container for the full-width images -->
 
     <!-- Add Bootstrap and custom JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
     <script src="js/splide-extension-auto-scroll.min.js"></script>
     <script defer>
@@ -629,7 +659,6 @@
     });
     </script>
 
-    <script src="script.js" defer></script>
 </body>
 
 </html>
