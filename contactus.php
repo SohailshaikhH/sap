@@ -11,12 +11,12 @@ include 'head.php'
     include 'header.php';
     ?>
     </header>
-    <section class="form-sectiontwo mb-5  pad-zero">
+    <section class="form-sectiontwo mb-5  ">
         <div class="container">
             <div class="underline-effect"></div>
             <h1 class="monospace display-5 headind-color py-5 m-0">GET IN TOUCH</h1>
             <div class="row ">
-                <div class="col-lg-6 ">
+                <div class="col-lg-6 position-relative ">
                     <div class="vertical-linethree"></div>
 
                     <form class=" rounded-5 pad-zero" method="POST" action="contact.php"
@@ -28,18 +28,20 @@ include 'head.php'
                                     <input type="text" style="width: 100%"
                                         class="form-control rounded-0 input-col form-feild py-3" id="nameInput"
                                         placeholder="Your Name*" name="name" />
-
+                                    <div id="nameError" class="error-message "></div>
                                 </div>
                                 <div class="mb- pb-1">
                                     <input style="width: 100%" type="email"
                                         class="form-control input-col rounded-0 form-feild py-3" id="emailInput"
                                         placeholder="Email*" name="email" />
+                                    <div id="emailError" class="error-message"></div>
 
                                 </div>
                                 <div class="py-3">
                                     <input style="width: 100%; height: 100%" type="tel"
                                         class="form-control input-col rounded-0 form-feild py-3" id="numberInput"
                                         placeholder="Mobile" name="number" />
+                                    <div id="numberError" class="error-message"></div>
 
                                 </div>
                             </div>
@@ -85,7 +87,8 @@ include 'head.php'
                                             <i class="bi bi-envelope font-colors pe-5"></i>
 
                                             <a class="text-white fs-4 fw-lighter d-block pt-4 text-decoration-none py-2"
-                                                aria-current="page" href="mailto:contact@sceintificangle.com">
+                                                style="word-break: break-all;" aria-current="page"
+                                                href="mailto:contact@sceintificangle.com">
                                                 contact@sceintificangle.com</a>
                                         </div>
                                         <div class="d-flex align-items-baseline">
@@ -106,10 +109,8 @@ include 'head.php'
 
 
             </div>
-            <div id="nameError" class="error-message mt-5"></div>
-            <div id="emailError" class="error-message"></div>
-            <div id="numberError" class="error-message"></div>
-            <div id="textareaError" class="error-message"></div>
+
+
         </div>
     </section>
     <?php

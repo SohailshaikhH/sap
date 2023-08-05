@@ -471,16 +471,16 @@ background-image {
 .vertical-linethree {
   position: absolute;
   width: 2px;
-  height: 0;
+  height: 100%;
   background-color: #fec345;
   transform: scaleY(0);
   transform-origin: top;
   transition: transform 2s ease;
-  right: 49%;
+  right: 0%;
   border-radius: 10px;
 }
 .vertical-linethree.visible {
-  height: 432px;
+  height: 110%;
   transform: scaleY(1);
 }
 .footersec {
