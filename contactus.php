@@ -58,8 +58,7 @@ include 'head.php'
                                         SEND MESSAGE
                                     </button>
                                 </div>
-                                <div id="recaptcha" class="g-recaptcha"
-                                    data-sitekey="6LexNu8mAAAAALsvbFA-piMG_E1Xz7vUbFqjIi7M" data-callback="onSubmit"
+                                <div id="recaptcha" class="g-recaptcha" data-sitekey="" data-callback="onSubmit"
                                     data-size="invisible"></div>
                             </div>
                         </div>

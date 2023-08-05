@@ -468,7 +468,8 @@ include 'head.php';
   <section class="form-section mb-5 py-5 pad-zero">
     <div class="container">
       <div class="underline-effect"></div>
-      <h1 class="monospace display-6 headind-color py-5 m-0">GET IN TOUCH</h1>
+      <h1 class="monospace display-6 headind-color py-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
+        data-aos-duration="800" data-aos-easing="ease-in-out">GET IN TOUCH</h1>
       <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()"
         data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
         <div class="row">
@@ -510,8 +511,8 @@ include 'head.php';
                 SEND MESSAGE
               </button>
             </div>
-            <div id="recaptcha" class="g-recaptcha" data-sitekey="6LexNu8mAAAAALsvbFA-piMG_E1Xz7vUbFqjIi7M"
-              data-callback="onSubmit" data-size="invisible"></div>
+            <div id="recaptcha" class="g-recaptcha" data-sitekey="" data-callback="onSubmit" data-size="invisible">
+            </div>
 
           </div>
 

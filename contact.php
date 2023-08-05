@@ -24,7 +24,7 @@ if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]
                         'content' => http_build_query(
                             array(
                                 'response' => $_POST['g-recaptcha-response'],
-                                'secret' => '6LexNu8mAAAAAHgW_URYyqg-P8Z-y2DQhRakX7xC' //google captcha code
+                                'secret' => '' //google captcha code
                             )
                         ),
                     ),
@@ -57,8 +57,8 @@ if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]
     $mail->SMTPAuth = true;
     $mail->SMTDebug = 3;
     // Provide username and password.
-    $mail->Username = 'noreply.bicxo@gmail.com'; // SMTP username
-    $mail->Password = 'ffqzutrcaxiuqwbu'; // SMTP password
+    $mail->Username = ''; // SMTP username
+    $mail->Password = ''; // SMTP password
     // If SMTP requires TLS encryption then set it.
     $mail->SMTPSecure = "tls";
     // Set TCP port to connect to.

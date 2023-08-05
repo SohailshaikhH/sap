@@ -214,9 +214,7 @@
     height: 302px !important;
     right: 0px !important;
   }
-  .underline-effectformtwo.visible::after {
-    transform: scaleX(0.8) !important;
-  }
+
   /* Styles for screens up to 768 pixels wide */
   .bg-cards {
     background: linear-gradient(90deg, #ffc64780 100%, #ededed80 0%) !important;

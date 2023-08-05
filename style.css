@@ -601,3 +601,8 @@ a:hover {
   padding-bottom: 90px;
   background: linear-gradient(90deg, #ffffff00 90.9%, #ffc648 90.2%);
 }
+.btn:active {
+  color: #fec345;
+  background-color: #ffae0000 !important;
+  border-color: #ffae0000 !important;
+}
