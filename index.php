@@ -9,652 +9,658 @@ include 'head.php';
 <body>
 
 
-  <div class="py-2" style="background-color: #ffd54f">
-    <div class="container text-end">
-      <a href="mailto:contact@bicxo.co" class="text-end text-decoration-none font-color">
-        <i class="bi bi-envelope-fill px-2 font-color"></i>contact@scientificangle.in</a>
-    </div>
-  </div>
-  <div class="container-fluid sticky-top" id="black" style="background-color: #ffd54f">
-    <nav class="navbar navbar-expand-lg p-0">
-      <div class="container p-0">
-        <a class="navbar-brand" href="#"><img id="logo" src="images/logo.png" loading="lazy" style="width: 180px"
-            alt="SAP" /></a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-          aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
-          <div class="wrapper justify-content-end">
-            <div>
-              <ul class="navbar-nav align-items-center gap-4">
-                <li class="nav-item position-relative">
-                  <a class="nav-link active strline font-color" aria-current="page" href="index.php">Home</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                  <a class="font-color nav-link dropdown-toggle text-center" aria-expanded="false">
-                    Our Work
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li>
-                      <a class="dropdown-item" href="">Medico-marketing communication
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">Continued Medical Education & Power point
-                        presentations</a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">Patient education content
-                      </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">KOL Management </a>
-                    </li>
-                    <li>
-                      <a class="dropdown-item" href="">Manuscript writing</a>
-                    </li>
-                  </ul>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-color" href="https://stage112.webdakaar.in/sap/blog/">Blog
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link font-color" href="contactus.php">Contact us
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+    <div class="py-2" style="background-color: #ffd54f">
+        <div class="container text-end">
+            <a href="mailto:contact@bicxo.co" class="text-end text-decoration-none font-color">
+                <i class="bi bi-envelope-fill px-2 font-color"></i>contact@scientificangle.in</a>
         </div>
-      </div>
-    </nav>
-  </div>
-
-  <section class="position-relative">
-    <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
-    <div class="typhography">
-      <h1 class="display-6 monospace fw-light" data-aos="zoom-out-left" data-aos-delay="100" data-aos-duration="800"
-        data-aos-easing="ease-in-out">To create what we call</h1>
-      <h1 class="thphography-text display-3 headind-color monospace">
-        ELOQUENT TEXT
-      </h1>
-      <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="zoom-out-left" data-aos-delay="100" data-aos-duration="800"
-        data-aos-easing="ease-in-out">
-        Eloquent text Is the content in which
-      </p>
-      <span class="fw-Bold headind-color display-6 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
-        data-aos-duration="800" data-aos-easing="ease-in-out">
-        the doctor find merit, <br />and sponsor finds value
-      </span>
     </div>
-  </section>
+    <div class="container-fluid sticky-top" id="black" style="background-color: #ffd54f">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container p-0">
+                <a class="navbar-brand" href="#"><img id="logo" src="images/logo.png" loading="lazy"
+                        style="width: 180px" alt="SAP" /></a>
 
-  <section class="bg-overview-col">
-    <div class="container">
-      <div class="headinds">
-        <div class="underline-effect"></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <!-- <span class="txt-endingtwo"></span> -->
-        <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4" data-aos="fade-right" data-aos-delay="100"
-          data-aos-duration="800" data-aos-easing="ease-in-out">
-          OVERVIEW
-        </h1>
-      </div>
-      <div class="row gap-2">
-        <div class="col-lg-6 col-md-12">
-          <div class="div">
-            <div class="overview-text">
-              <p class="font-color py-5 pe-4 pad-zero" style="text-align: justify" data-aos="fade-up"
-                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-                Welcome to Scientific Angle, where the language of medicine
-                converges with the art of communication. We meticulously
-                gather the strands of biomedical information and weave them
-                into a tapestry of medically relevant and captivating
-                communication. With utmost care, we craft high-quality content
-                tailored to your unique needs, ensuring that it aligns with
-                established guidelines. Let us be your partners to fulfill
-                your medical communication needs.
-              </p>
-              <section class="section section-work-data" data-aos="fade-right" data-aos-delay="100"
+                <div class="collapse navbar-collapse justify-content-end" id="navbarTogglerDemo02">
+                    <div class="wrapper justify-content-end">
+                        <div>
+                            <ul class="navbar-nav align-items-center gap-4">
+                                <li class="nav-item position-relative">
+                                    <a class="nav-link active strline font-color" aria-current="page"
+                                        href="index.php">Home</a>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="font-color nav-link dropdown-toggle text-center" aria-expanded="false">
+                                        Our Work
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="">Medico-marketing communication
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="">Continued Medical Education & Power point
+                                                presentations</a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="">Patient education content
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="">KOL Management </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="">Manuscript writing</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-color" href="https://stage112.webdakaar.in/sap/blog/">Blog
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link font-color" href="contactus.php">Contact us
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <section class="position-relative">
+        <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
+        <div class="typhography">
+            <h1 class="display-6 monospace fw-light" data-aos="zoom-out-left" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">To create what we call</h1>
+            <h1 class="thphography-text display-3 headind-color monospace">
+                ELOQUENT TEXT
+            </h1>
+            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
                 data-aos-duration="800" data-aos-easing="ease-in-out">
-                <div class="container" id="counter">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-right" data-aos-delay="100"
-                      data-aos-duration="800" data-aos-easing="ease-in-out">
-                      <h2
-                        class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
-                        data-count="50"></h2>
-
-                      <p class="text-center fs-6">Business Partner</p>
-                    </div>
-                    <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
-                      data-aos-duration="800" data-aos-easing="ease-in-out">
-                      <h2
-                        class="countersize counternumcolor fw-bold counter-numbers plussigntwo text-center main-color fs-1"
-                        data-count="7"></h2>
-
-                      <p class="text-center fw-light fs-6">Happy Reader</p>
-                    </div>
-                    <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
-                      data-aos-duration="800" data-aos-easing="ease-in-out">
-                      <h2
-                        class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
-                        data-count="300">
-                        0
-                      </h2>
-                      <span class="fw-bold text-center counternumcolor fw-bolder pb-5"></span>
-                      <p class="text-center fs-6">lorem ipsum</p>
-                    </div>
-                  </div>
-                </div>
-              </section>
-            </div>
-          </div>
+                Eloquent text Is the content in which
+            </p>
+            <span class="fw-Bold headind-color display-6 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">
+                the doctor find merit, <br />and sponsor finds value
+            </span>
         </div>
-        <div class="col-lg-5 col-md-12" style="height: 434px" data-aos="fade-left" data-aos-delay="100"
-          data-aos-duration="800" data-aos-easing="ease-in-out">
-          <div class="">
-            <div class="years-rank">
-              <h2 class="countersize counternumcolor fw-bold counter-numbers text-white fs-1 ps-4" data-count="25">
-                0
-              </h2>
-              <div class="vertical-line"></div>
-              <p class="fs-4 text-white m-0 ps-4">Years of experience</p>
-              <div class="underline-effecttwo"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="cardi-section p-5">
-    <div class="container">
-      <div class="headinds">
-        <div class="underline-effect"></div>
+    </section>
 
-        <!-- <span class="txt-endingtwo"></span> -->
-        <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4" data-aos="zoom-out-right"
-          data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-          OUR WORK
-        </h1>
-      </div>
-    </div>
-  </section>
-  <section class="martop cards-bg pb-5">
-    <div class="container">
-      <div class="maincards">
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-              <div class="card border-0 rounded-0 pb-4" style="background: none">
-                <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-                <div class="card-body cards-body">
-                  <h2 class="card-title headind-color pb-5 font-color">
-                    Medico-marketing communication
-                  </h2>
-                  <p class="card-text pb-5 font-color mt-4" style="height: 205px">
-                    We give a very strong rationale for writing a product. The rationale is not just
-                    based on the clinical efficacy data points but also based on strong scientific
-                    fundamentals for the use of the drug. The content is written by selecting the
-                    right words, using the right infographics, and using the right data.
+    <section class="bg-overview-col">
+        <div class="container">
+            <div class="headinds">
+                <div class="underline-effect"></div>
 
-                  </p>
-                  <a href="#" class="btn  d-block p-0 text-start headind-color">See more</a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-              <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-              <div class="straightline"></div>
-              <div class="card-body">
-                <h2 class="card-title pb-4 headind-color word-wrap font-color">
-                  Continued Medical Education & Power point presentations
-                </h2>
-                <p class="card-text pb-5 font-color" style="height: 220px">
-                  PowerPoint presentations are at the heart of communication.
-                  They are needed for education, CME marketing and sales. We
-                  create high-quality PPT content following thoroughly
-                  searching the medical literature. The content tone is
-                  tailor-made to the specified target audience. We prefer data
-                  to speak as much as possible over text. The captive flow and
-                  creative infographics are at the heart of our presentations.
-                </p>
-
-                <a href="#" class="btn headind-color p-0 pb-3 d-block text-end">
-                  See more
-                  <div class="underline-effectfour"></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="maincard my-5">
-    <div class="container">
-      <div class="maincard">
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="card border-0 rounded-0 mb-4" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-              <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-
-              <div class="straightlinetwo"></div>
-              <div class="card-body">
-                <h2 class="card-title pb-4 headind-color font-color">
-                  Patient education content
-                </h2>
-                <p class="card-text pb-3 font-color" style="height: 220px">
-                  We understand that Patients are very important partners in
-                  healthcare. Our content is written in the simplest possible
-                  language, with images and infographics. Highschool students
-                  can even understand our content. Our patient education
-                  content is demanded by doctors and printed again and again.
-                </p>
-
-                <a href="#" class="btn headind-color p-0 pb-3"> See more </a>
-                <div class="underline-effectthree"></div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="card border-0 rounded-0" style="background: none" data-aos="fade-left" data-aos-delay="100"
-              data-aos-duration="800" data-aos-easing="ease-in-out">
-              <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-              <div class="card-body cards-body">
-                <h2 href="#" role="button" class="card-title pb-4 headind-color font-color">
-                  KOL Management
-                </h2>
-                <p class="card-text pb-3 font-color" style="height: 220px">
-                  Case reports, clinical opinions, CMEs and whatnot, KOL
-                  opinion is very important and useful in medical
-                  communication. We interact with KOLs of almost all medical
-                  specialties in India. We try our best to get what KOLs
-                  requires in the minimum possible time.
-                </p>
-                <a href="#" class="btn headind-color p-0 d-block text-end">See more</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="cards-bg pb-5">
-    <div class="container">
-      <div class="">
-        <div class="row">
-          <div class="col-lg-6 col-md-12">
-            <div class="ps-1">
-              <div class="row">
-                <div class="col">
-                  <div class="card border-0 rounded-0 mb-4" style="background: none" data-aos="fade-right"
+                <!-- <span class="txt-endingtwo"></span> -->
+                <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4" data-aos="fade-right"
                     data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-                    <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-                    <div class="card-body cards-body">
-                      <h2 class="card-title pb-5 headind-color font-color">
-                        Manuscript writing
-                      </h2>
-                      <p class="card-text pb-3 mt-4 font-color" style="height: 220px">
-                        We provide manuscript writing, editorial support,
-                        including data fact check, statistical analysis, case
-                        study/case study series, book chapters, post-Marketing
-                        surveys, and medical data management.
-                      </p>
-                      <a href="#" class="btn headind-color p-0">See more</a>
+                    OVERVIEW
+                </h1>
+            </div>
+            <div class="row gap-2">
+                <div class="col-lg-6 col-md-12">
+                    <div class="div">
+                        <div class="overview-text">
+                            <p class="font-color py-5 pe-4 pad-zero" style="text-align: justify" data-aos="fade-up"
+                                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                                Welcome to Scientific Angle, where the language of medicine
+                                converges with the art of communication. We meticulously
+                                gather the strands of biomedical information and weave them
+                                into a tapestry of medically relevant and captivating
+                                communication. With utmost care, we craft high-quality content
+                                tailored to your unique needs, ensuring that it aligns with
+                                established guidelines. Let us be your partners to fulfill
+                                your medical communication needs.
+                            </p>
+                            <section class="section section-work-data" data-aos="fade-right" data-aos-delay="100"
+                                data-aos-duration="800" data-aos-easing="ease-in-out">
+                                <div class="container" id="counter">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-right"
+                                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
+                                                data-count="50"></h2>
+
+                                            <p class="text-center fs-6">Business Partner</p>
+                                        </div>
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
+                                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo text-center main-color fs-1"
+                                                data-count="7"></h2>
+
+                                            <p class="text-center fw-light fs-6">Happy Reader</p>
+                                        </div>
+                                        <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
+                                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
+                                                data-count="300">
+                                                0
+                                            </h2>
+                                            <span class="fw-bold text-center counternumcolor fw-bolder pb-5"></span>
+                                            <p class="text-center fs-6">lorem ipsum</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
                     </div>
-                  </div>
                 </div>
-              </div>
+                <div class="col-lg-5 col-md-12" style="height: 434px" data-aos="fade-left" data-aos-delay="100"
+                    data-aos-duration="800" data-aos-easing="ease-in-out">
+                    <div class="">
+                        <div class="years-rank">
+                            <h2 class="countersize counternumcolor fw-bold counter-numbers text-white fs-1 ps-4"
+                                data-count="25">
+                                0
+                            </h2>
+                            <div class="vertical-line"></div>
+                            <p class="fs-4 text-white m-0 ps-4">Years of experience</p>
+                            <div class="underline-effecttwo"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div class="col-lg-6 col-md-12">
-            <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100" data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-              <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
-              <div class="straightline"></div>
-              <div class="card-body">
-                <h2 class="card-title pb-4 headind-color word-wrap font-color">
-                  Continued Medical Education & Power point presentations
-                </h2>
-                <p class="card-text pb-5 font-color" style="height: 220px">
-                  PowerPoint presentations are at the heart of communication.
-                  They are needed for education, CME marketing and sales. We
-                  create high-quality PPT content following thoroughly
-                  searching the medical literature. The content tone is
-                  tailor-made to the specified target audience. We prefer data
-                  to speak as much as possible over text. The captive flow and
-                  creative infographics are at the heart of our presentations.
-                </p>
-
-                <a href="#" class="btn headind-color p-0 pb-3 d-block text-end">
-                  See more
-                  <div class="underline-effectfour"></div>
-                </a>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <section class="scroll-infininty">
-    <div class="container">
-      <div class="underline-effect"></div>
-      <h1 class="monospace display-5 headind-color pt-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
-        data-aos-duration="800" data-aos-easing="ease-in-out">Our Clients</h1>
-      <section class="fill-section">
-        <div class="fill-line"></div>
-      </section>
-      <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading" data-aos="fade-up"
-        data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-        <div class="splide__track">
-          <ul class="splide__list">
-            <li class="splide__slide">
-              <img src="images/logos/logo 1.jpg" loading="lazy" class="img-fluid" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 2.jpg" loading="lazy" class="img-fluid" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 3.jpg" loading="lazy" class="img-fluid" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 4.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 5.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 6.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 7.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 8.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 9.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 10.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 11.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 12.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 13.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 14.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 15.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 16.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 17.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 18.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 19.jpg" loading="lazy" alt="" />
-            </li>
-            <li class="splide__slide">
-              <img src="images/logos/logo 20.jpg" loading="lazy" alt="" />
-            </li>
-          </ul>
-        </div>
-      </section>
-    </div>
-  </section>
-  <section class="two-text p-5 pad-zero">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col">
-          <div class="py-5">
-            <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5" data-aos="fade-up"
-              data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-              what our clients say about us
-              <hr class="hr-line" />
-            </h1>
-            <p class="font-colors text-center pb-5" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-              data-aos-easing="ease-in-out">
-              Lorem ipsum dolor sit amet consectetur adipisicing Itaque
-              quidem.
-            </p>
-          </div>
-        </div>
-        <div class="col-lg-2"></div>
-      </div>
-      <div class="row">
-        <div class="col-lg-2"></div>
-        <div class="col" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800" data-aos-easing="ease-in-out">
-          <div class="text-row d-flex align-items-center justify-content-center">
-            <p class="font-color text-center text-justify mt-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Suscipit accusantium beatae deserunt consequuntur animi
-              temporibus culpa veniam aut earum ipsum necessitatibus rem
-              voluptatum, cumque laboriosam, doloremque quidem sequi
-              dignissimos? Similique, quo voluptate perferendis fugiat animi
-              ipsum reprehenderit blanditiis exercitationem, est beatae ab
-              aspernatur quibusdam quaerat asperiores iusto culpa nihil dicta?
-            </p>
-          </div>
-          <p class="txt-ending text-center font-color">lorem ipsum</p>
-        </div>
-        <div class="col-lg-2"></div>
-      </div>
-    </div>
-  </section>
-  <section class="form-section mb-5 py-5 pad-zero">
-    <div class="container">
-      <div class="underline-effect"></div>
-      <h1 class="monospace display-6 headind-color py-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
-        data-aos-duration="800" data-aos-easing="ease-in-out">GET IN TOUCH</h1>
-      <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()"
-        data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
-        <div class="row">
-          <div class="col-lg-16 col-md-6">
-            <div class="mb-3 pb-1">
-              <input type="text" style="width: 100%" class="form-control rounded-0 input-col form-feild py-3"
-                id="nameInput" placeholder="Your Name*" name="name" />
-              <div id="nameError" class="error-message "></div>
+    </section>
+    <section class="cardi-section p-5">
+        <div class="container">
+            <div class="headinds">
+                <div class="underline-effect"></div>
 
-
+                <!-- <span class="txt-endingtwo"></span> -->
+                <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4" data-aos="zoom-out-right"
+                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                    OUR WORK
+                </h1>
             </div>
-            <div class="mb- pb-1">
-              <input style="width: 100%" type="email" class="form-control input-col rounded-0 form-feild py-3"
-                id="emailInput" placeholder="Email*" name="email" />
-
-              <div id="emailError" class="error-message"></div>
-            </div>
-            <div class="py-3">
-              <input style="width: 100%; height: 100%" type="tel"
-                class="form-control input-col rounded-0 form-feild py-3" id="numberInput" placeholder="Mobile"
-                name="number" />
-              <div id="numberError" class="error-message"></div>
-
-            </div>
-          </div>
-          <div class="col-lg-16 col-md-6 underline-effectformtwo">
-            <div class="vertical-linetwo"></div>
-
-            <div class=""></div>
-
-            <div class="mb- pb-1">
-              <textarea style="width: 100%" class="form-control input-col rounded-0 form-feild py-3"
-                placeholder="Your Message" rows="9 "></textarea>
-
-
-            </div>
-            <div class="d-flex justify-content-end mt-3">
-              <button class="btns orange headind-color p-0 roundede" style="margin-bottom:12px">
-                SEND MESSAGE
-              </button>
-            </div>
-            <div id="recaptcha" class="g-recaptcha" data-sitekey="" data-callback="onSubmit" data-size="invisible">
-            </div>
-
-          </div>
-
         </div>
-      </form>
-    </div>
-  </section>
-  <section class="bg-cards">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-7 p-0">
-          <div class="" style="height: 400px">
-            <h1 class="monospace display-5 headind-color pt-5 m-0 px-1" data-aos="zoom-out-right" data-aos-delay="100"
-              data-aos-duration="800" data-aos-easing="ease-in-out">
-              CHECKOUT OUR BLOGS
-            </h1>
-          </div>
-        </div>
-        <div class="col-lg-5 footersec">
-          <div class="underline-effectfooter"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="martop mb-5">
-    <div class="container">
-      <div class="row text-center">
-        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center mb-sm-0">
-          <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
-            data-aos-duration="500" data-aos-easing="ease-in-out">
-            <img src="images/image 3.webp" class="img-fluid" alt="" />
-            <div class="me-0 ms-0">
-              <h4 class="pt-1 text-start px-4 text-white mt-3">
-                Lorem, ipsum dolor Sit omnis voluptatem nam?
-              </h4>
-              <p class="fs-6 px-4 text-white mb-0 text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempora, rem dolorum laborum cumque architecto aliquid
-                mollitia nobis similique repellendus doloremque? Fugit facere
-                modi facilis aut voluptates qui voluptas dolorum delectus!.
-              </p>
-              <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
-          <div class="card footerbg mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-            data-aos-easing="ease-in-out">
-            <img src="images/image 3.webp" class="img-fluid" alt="" />
-            <div class="me-0 ms-0">
-              <h4 class="pt-1 text-start px-4 text-white mt-3">
-                Lorem, ipsum dolor Sit omnis voluptatem nam?
-              </h4>
-              <p class="fs-6 px-4 text-white mb-0 text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempora, rem dolorum laborum cumque architecto aliquid
-                mollitia nobis similique repellendus doloremque? Fugit facere
-                modi facilis aut voluptates qui voluptas dolorum delectus!.
-              </p>
+    </section>
+    <section class="martop cards-bg pb-5">
+        <div class="container">
+            <div class="maincards">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
+                            data-aos-easing="ease-in-out">
+                            <div class="card border-0 rounded-0 pb-4" style="background: none">
+                                <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                                <div class="card-body cards-body">
+                                    <h2 class="card-title headind-color pb-5 font-color">
+                                        Medico-marketing communication
+                                    </h2>
+                                    <p class="card-text pb-5 font-color mt-4" style="height: 210px">
+                                        We give a very strong rationale for writing a product. The rationale is not just
+                                        based on the clinical efficacy data points but also based on strong scientific
+                                        fundamentals for the use of the drug. The content is written by selecting the
+                                        right words, using the right infographics, and using the right data.
 
-              <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
-          <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
-            data-aos-duration="1200" data-aos-easing="ease-in-out">
-            <img src="images/image 3.webp" class="img-fluid" alt="" />
-            <div class="me-0 ms-0">
-              <h4 class="pt-1 text-start px-4 text-white mt-3">
-                Lorem, ipsum dolor Sit omnis voluptatem nam?
-              </h4>
-              <p class="fs-6 px-4 text-white mb-0 text-start">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Tempora, rem dolorum laborum cumque architecto aliquid
-                mollitia nobis similique repellendus doloremque? Fugit facere
-                modi facilis aut voluptates qui voluptas dolorum delectus!.
-              </p>
+                                    </p>
+                                    <a href="#" class="btn  d-block p-0 pb-3 text-start headind-color hovercolor">See
+                                        more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                            <div class="straightline"></div>
+                            <div class="card-body">
+                                <h2 class="card-title pb-4 headind-color word-wrap font-color">
+                                    Continued Medical Education & Power point presentations
+                                </h2>
+                                <p class="card-text pb-5 font-color" style="height: 220px">
+                                    PowerPoint presentations are at the heart of communication.
+                                    They are needed for education, CME marketing and sales. We
+                                    create high-quality PPT content following thoroughly
+                                    searching the medical literature. The content tone is
+                                    tailor-made to the specified target audience. We prefer data
+                                    to speak as much as possible over text. The captive flow and
+                                    creative infographics are at the heart of our presentations.
+                                </p>
 
-              <p>
-                <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
-              </p>
+                                <a href="#" class="btn headind-color p-0 pb-3 d-block text-end">
+                                    See more
+                                    <div class="underline-effectfour"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <?php
+    </section>
+    <section class="maincard my-5">
+        <div class="container">
+            <div class="maincard">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card border-0 rounded-0 mb-4" data-aos="fade-right" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+
+                            <div class="straightlinetwo"></div>
+                            <div class="card-body">
+                                <h2 class="card-title pb-4 headind-color font-color">
+                                    Patient education content
+                                </h2>
+                                <p class="card-text pb-3 font-color" style="height: 220px">
+                                    We understand that Patients are very important partners in
+                                    healthcare. Our content is written in the simplest possible
+                                    language, with images and infographics. Highschool students
+                                    can even understand our content. Our patient education
+                                    content is demanded by doctors and printed again and again.
+                                </p>
+
+                                <a href="#" class="btn headind-color p-0 pb-3"> See more </a>
+                                <div class="underline-effectthree"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card border-0 rounded-0" style="background: none" data-aos="fade-left"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                            <div class="card-body cards-body">
+                                <h2 href="#" role="button" class="card-title pb-4 headind-color font-color">
+                                    KOL Management
+                                </h2>
+                                <p class="card-text pb-3 font-color" style="height: 220px">
+                                    Case reports, clinical opinions, CMEs and whatnot, KOL
+                                    opinion is very important and useful in medical
+                                    communication. We interact with KOLs of almost all medical
+                                    specialties in India. We try our best to get what KOLs
+                                    requires in the minimum possible time.
+                                </p>
+                                <a href="#" class="btn headind-color p-0 pb-3 d-block text-end  hovercolor">See more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="cards-bg pb-5">
+        <div class="container">
+            <div class="">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="ps-1">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card border-0 rounded-0 mb-4" style="background: none"
+                                        data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
+                                        data-aos-easing="ease-in-out">
+                                        <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                                        <div class="card-body cards-body">
+                                            <h2 class="card-title pb-5 headind-color font-color">
+                                                Manuscript writing
+                                            </h2>
+                                            <p class="card-text pb-3 mt-4 font-color" style="height: 220px">
+                                                We provide manuscript writing, editorial support,
+                                                including data fact check, statistical analysis, case
+                                                study/case study series, book chapters, post-Marketing
+                                                surveys, and medical data management.
+                                            </p>
+                                            <a href="#" class="btn headind-color p-0 pb-3  hovercolor">See more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                            <div class="straightline"></div>
+                            <div class="card-body">
+                                <h2 class="card-title pb-4 headind-color word-wrap font-color">
+                                    Continued Medical Education & Power point presentations
+                                </h2>
+                                <p class="card-text pb-5 font-color" style="height: 220px">
+                                    PowerPoint presentations are at the heart of communication.
+                                    They are needed for education, CME marketing and sales. We
+                                    create high-quality PPT content following thoroughly
+                                    searching the medical literature. The content tone is
+                                    tailor-made to the specified target audience. We prefer data
+                                    to speak as much as possible over text. The captive flow and
+                                    creative infographics are at the heart of our presentations.
+                                </p>
+
+                                <a href="#" class="btn headind-color p-0 pb-3 d-block text-end">
+                                    See more
+                                    <div class="underline-effectfour"></div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="scroll-infininty">
+        <div class="container">
+            <div class="underline-effect"></div>
+            <h1 class="monospace display-5 headind-color pt-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">Our Clients</h1>
+            <section class="fill-section">
+                <div class="fill-line"></div>
+            </section>
+            <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading" data-aos="fade-up"
+                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 1.jpg" loading="lazy" class="img-fluid" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 2.jpg" loading="lazy" class="img-fluid" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 3.jpg" loading="lazy" class="img-fluid" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 4.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 5.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 6.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 7.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 8.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 9.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 10.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 11.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 12.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 13.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 14.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 15.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 16.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 17.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 18.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 19.jpg" loading="lazy" alt="" />
+                        </li>
+                        <li class="splide__slide">
+                            <img src="images/logos/logo 20.jpg" loading="lazy" alt="" />
+                        </li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </section>
+    <section class="two-text p-5 pad-zero">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col">
+                    <div class="py-5">
+                        <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5" data-aos="fade-up"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                            what our clients say about us
+                            <hr class="hr-line" />
+                        </h1>
+                        <p class="font-colors text-center pb-5" data-aos="fade-up" data-aos-delay="100"
+                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                            Lorem ipsum dolor sit amet consectetur adipisicing Itaque
+                            quidem.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800"
+                    data-aos-easing="ease-in-out">
+                    <div class="text-row d-flex align-items-center justify-content-center">
+                        <p class="font-color text-center text-justify mt-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Suscipit accusantium beatae deserunt consequuntur animi
+                            temporibus culpa veniam aut earum ipsum necessitatibus rem
+                            voluptatum, cumque laboriosam, doloremque quidem sequi
+                            dignissimos? Similique, quo voluptate perferendis fugiat animi
+                            ipsum reprehenderit blanditiis exercitationem, est beatae ab
+                            aspernatur quibusdam quaerat asperiores iusto culpa nihil dicta?
+                        </p>
+                    </div>
+                    <p class="txt-ending text-center font-color">lorem ipsum</p>
+                </div>
+                <div class="col-lg-2"></div>
+            </div>
+        </div>
+    </section>
+    <section class="form-section mb-5 py-5 pad-zero">
+        <div class="container">
+            <div class="underline-effect"></div>
+            <h1 class="monospace display-6 headind-color py-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
+                data-aos-duration="800" data-aos-easing="ease-in-out">GET IN TOUCH</h1>
+            <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()"
+                data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <div class="row">
+                    <div class="col-lg-16 col-md-6">
+                        <div class="mb-3 pb-1">
+                            <input type="text" style="width: 100%"
+                                class="form-control rounded-0 input-col form-feild py-3" id="nameInput"
+                                placeholder="Your Name*" name="name" />
+                            <div id="nameError" class="error-message "></div>
+
+
+                        </div>
+                        <div class="mb- pb-1">
+                            <input style="width: 100%" type="email"
+                                class="form-control input-col rounded-0 form-feild py-3" id="emailInput"
+                                placeholder="Email*" name="email" />
+
+                            <div id="emailError" class="error-message"></div>
+                        </div>
+                        <div class="py-3">
+                            <input style="width: 100%; height: 100%" type="tel"
+                                class="form-control input-col rounded-0 form-feild py-3" id="numberInput"
+                                placeholder="Mobile" name="number" />
+                            <div id="numberError" class="error-message"></div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-16 col-md-6 underline-effectformtwo">
+                        <div class="vertical-linetwo"></div>
+
+                        <div class=""></div>
+
+                        <div class="mb- pb-1">
+                            <textarea style="width: 100%" class="form-control input-col rounded-0 form-feild py-3"
+                                placeholder="Your Message" rows="9 "></textarea>
+
+
+                        </div>
+                        <div class="d-flex justify-content-end mt-3">
+                            <button class="btns orange headind-color p-0 roundede" style="margin-bottom:12px">
+                                SEND MESSAGE
+                            </button>
+                        </div>
+                        <div id="recaptcha" class="g-recaptcha" data-sitekey="" data-callback="onSubmit"
+                            data-size="invisible">
+                        </div>
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="bg-cards">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 p-0">
+                    <div class="" style="height: 400px">
+                        <h1 class="monospace display-5 headind-color pt-5 m-0 px-1" data-aos="zoom-out-right"
+                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                            CHECKOUT OUR BLOGS
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-5 footersec">
+                    <div class="underline-effectfooter"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="martop mb-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center mb-sm-0">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="500" data-aos-easing="ease-in-out">
+                        <img src="images/image 3.webp" class="img-fluid" alt="" />
+                        <div class="me-0 ms-0">
+                            <h4 class="pt-1 text-start px-4 text-white mt-3">
+                                Lorem, ipsum dolor Sit omnis voluptatem nam?
+                            </h4>
+                            <p class="fs-6 px-4 text-white mb-0 text-start">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Tempora, rem dolorum laborum cumque architecto aliquid
+                                mollitia nobis similique repellendus doloremque? Fugit facere
+                                modi facilis aut voluptates qui voluptas dolorum delectus!.
+                            </p>
+                            <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
+                    <div class="card footerbg mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                        data-aos-easing="ease-in-out">
+                        <img src="images/image 3.webp" class="img-fluid" alt="" />
+                        <div class="me-0 ms-0">
+                            <h4 class="pt-1 text-start px-4 text-white mt-3">
+                                Lorem, ipsum dolor Sit omnis voluptatem nam?
+                            </h4>
+                            <p class="fs-6 px-4 text-white mb-0 text-start">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Tempora, rem dolorum laborum cumque architecto aliquid
+                                mollitia nobis similique repellendus doloremque? Fugit facere
+                                modi facilis aut voluptates qui voluptas dolorum delectus!.
+                            </p>
+
+                            <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
+                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                        <img src="images/image 3.webp" class="img-fluid" alt="" />
+                        <div class="me-0 ms-0">
+                            <h4 class="pt-1 text-start px-4 text-white mt-3">
+                                Lorem, ipsum dolor Sit omnis voluptatem nam?
+                            </h4>
+                            <p class="fs-6 px-4 text-white mb-0 text-start">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Tempora, rem dolorum laborum cumque architecto aliquid
+                                mollitia nobis similique repellendus doloremque? Fugit facere
+                                modi facilis aut voluptates qui voluptas dolorum delectus!.
+                            </p>
+
+                            <p>
+                                <a href="#" class="btn font-colors pt-5 btn-line">Read More</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <?php
     include 'footer.php';
     include 'script.php';
     ?>
-  </footer>
+    </footer>
 
 
-  <!-- Create a container for the full-width images -->
+    <!-- Create a container for the full-width images -->
 
-  <!-- Add Bootstrap and custom JavaScript -->
+    <!-- Add Bootstrap and custom JavaScript -->
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
-  <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
-  <script src="js/splide-extension-auto-scroll.min.js"></script>
-  <script defer>
-    document.addEventListener("DOMContentLoaded", function () {
-      new Splide("#featured-product", {
-        type: "loop",
-        drag: "free",
-        focus: "center",
-        perPage: 2,
-        arrows: false,
-        pagination: false,
-        padding: "0%",
-        autoWidth: true,
-        gap: "40px",
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js" defer></script>
+    <script src="js/splide-extension-auto-scroll.min.js"></script>
+    <script defer>
+    document.addEventListener("DOMContentLoaded", function() {
+        new Splide("#featured-product", {
+            type: "loop",
+            drag: "free",
+            focus: "center",
+            perPage: 2,
+            arrows: false,
+            pagination: false,
+            padding: "0%",
+            autoWidth: true,
+            gap: "40px",
 
-        autoScroll: {
-          speed: 0.5,
-        },
-      }).mount(window.splide.Extensions);
+            autoScroll: {
+                speed: 0.5,
+            },
+        }).mount(window.splide.Extensions);
     });
-    window.addEventListener("scroll", function () {
-      let navbar = document.getElementById("black");
-      if (window.scrollY > 6) {
-        navbar.classList.add("scroll");
-      } else {
-        navbar.classList.remove("scroll");
-      }
+    window.addEventListener("scroll", function() {
+        let navbar = document.getElementById("black");
+        if (window.scrollY > 6) {
+            navbar.classList.add("scroll");
+        } else {
+            navbar.classList.remove("scroll");
+        }
     });
-    window.addEventListener("scroll", function () {
-      const logo = document.getElementById("logo");
-      const logoWidthSticky = "125px";
-      const logoWidthNormal = "180px";
+    window.addEventListener("scroll", function() {
+        const logo = document.getElementById("logo");
+        const logoWidthSticky = "125px";
+        const logoWidthNormal = "180px";
 
-      if (window.scrollY > 6) {
-        logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
-      } else {
-        logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
-      }
+        if (window.scrollY > 6) {
+            logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
+        } else {
+            logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
+        }
     });
-  </script>
+    </script>
 
 </body>
 

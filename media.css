@@ -54,7 +54,7 @@
     transform: scaleX(0.8) !important;
   }
   .underline-effectthree.visible::after {
-    transform: scaleX(0.832) !important;
+    transform: scaleX(0.838) !important;
   }
   .card-text {
     font-size: 17px !important;
@@ -63,9 +63,6 @@
 
 @media only screen and (max-width: 992px) {
   /* Styles for screens up to 992 pixels wide */
-  .vertical-linethree {
-    display: none !important;
-  }
 
   .bg-overview-col {
     background-position: bottom !important;
@@ -80,10 +77,12 @@
     min-width: 0% !important;
     left: 0% !important;
     right: 0px !important;
+    margin-top: 79px;
   }
+
   .infoshotchild::before {
-    left: 6px !important;
-    top: 0px !important;
+    left: 20px !important;
+    top: 7px !important;
   }
   .dropdown-menu {
     border: none !important;
@@ -158,13 +157,16 @@
     background: linear-gradient(
       90deg,
       #ffffff00 100%,
-      #ffc648 90.2%
+      #ffc648 100.2%
     ) !important;
   }
 }
 
 /* Media query for screens with a maximum width of 768 pixels */
 @media only screen and (max-width: 768px) {
+  .underline-effectformtwo::after {
+    width: 100% !important;
+  }
   .straightlinetwo::after {
     height: 0px !important;
 
@@ -254,6 +256,9 @@
 
 /* Media query for screens with a maximum width of 578 pixels */
 @media only screen and (max-width: 578px) {
+  .vertical-linethree {
+    display: none !important;
+  }
   .straightlinetwo::after {
     height: 0px !important;
 

@@ -70,7 +70,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-2 col-md-6 col-sm-6 mt-lg-0 mt-4">
+                <div class="col-lg-3 col-md-6 col-sm-6 mt-lg-0 mt-4">
                     <script type="IN/FollowCompany" data-id="69413451" data-counter="right"></script>
                     <div class="contaienr" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1200"
                         data-aos-easing="ease-in-out">
@@ -80,17 +80,18 @@
                                 <div class="d-flex align-items-baseline">
                                     <i class="bi bi-telephone-fill font-colors pe-4"></i>
 
-                                    <a class="text-white d-block text-decoration-none py-2" aria-current="page"
-                                        href="tel:022-46055380">
-                                        022-4605 53 80
+                                    <a class="text-white  text-decoration-none py-2" aria-current="page"
+                                        href="tel:022-222-22222">
+                                        022-2222-2222
                                     </a>
                                 </div>
                                 <div class="d-flex align-items-baseline">
                                     <i class="bi bi-envelope-fill font-colors pe-4"></i>
 
-                                    <a class="text-white d-block text-decoration-none py-2" aria-current="page"
-                                        href="mailto:contact@bicxo.co">
-                                        contact@bicxo.co</a>
+                                    <a class="text-white fs-6 text-decoration-none py-2"
+                                        style="word-break: break-word  " aria-current="page"
+                                        href="mailto:contact@sceintificangle.com">
+                                        contact@sceintificangle.com</a>
                                 </div>
                             </li>
                         </ul>
