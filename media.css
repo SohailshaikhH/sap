@@ -1,351 +1,356 @@
-@media only screen and (max-width: 1400px) {
-  /* Styles for screens up to 992 pixels wide */
-
-  section.typhography {
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    flex-direction: column;
-    position: absolute;
-    right: 200px;
-    margin-top: 0px;
-  }
-  .display-6 {
-    font-size: 25px !important;
-  }
-  .thphography-text {
-    font-size: 47px;
-  }
-  .underline-effectthree.visible::after {
-    transform: scaleX(0.866) !important;
-  }
-}
-
-/* Media query for screens with a maximum width of 992 pixels */
-@media only screen and (max-width: 1200px) {
-  /* Styles for screens up to 992 pixels wide */
-
-  section .typhography {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    margin-top: 0px;
-    right: 122px;
-    top: 31%;
-  }
-  .underline-effect::after {
-    top: 105px !important;
-  }
-  .display-6 {
-    font-size: 25px !important;
-  }
-
-  .thphography-text {
-    font-size: 40px;
-  }
-  p.text-center.fw-Bold.m-0.fs-5 {
-    font-size: 16px !important;
-  }
-  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
-    font-size: 17px !important;
-  }
-  .underline-effectfour.visible::after {
-    transform: scaleX(0.8) !important;
-  }
-  .underline-effectthree.visible::after {
-    transform: scaleX(0.832) !important;
-  }
-  .card-text {
-    font-size: 17px !important;
-  }
-}
-
-@media only screen and (max-width: 992px) {
-  /* Styles for screens up to 992 pixels wide */
-  .vertical-linethree {
-    display: none !important;
-  }
-
-  .bg-overview-col {
-    background-position: bottom !important;
-    background-size: 100% 46% !important;
-  }
-  .infoshotchild {
-    background-color: #333658;
-    margin-left: 6px;
-  }
-  .infoshot {
-    position: static !important;
-    min-width: 0% !important;
-    left: 0% !important;
-    right: 0px !important;
-  }
-  .infoshotchild::before {
-    left: 6px !important;
-    top: 0px !important;
-  }
-  .dropdown-menu {
-    border: none !important;
-  }
-  .underline-effectfooter::after {
-    width: 0% !important;
-  }
-  .card-body {
-    background-color: #ffffff !important;
-  }
-  .card .card-body {
-    background-color: #ffffff !important;
-    border: 1px solid;
-  }
-  .straightline::before {
-    height: 372px !important;
-  }
-  .straightlinetwo::after {
-    height: 277px !important;
-    right: 0px !important;
-  }
-  .card-text {
-    height: 100% !important;
-  }
-  .card-text {
-    height: 100% !important;
-  }
-  .underline-effecttwo.visible::after {
-    transform: scaleX(1.116) !important;
-  }
-  .underline-effectthree.visible::after {
-    transform: scaleX(0.898) !important;
-  }
-  .cards-bg {
-    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
-  }
-  .maincard {
-    background-color: #ffc647 !important;
-  }
-  section .typhography {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    margin-top: 0px;
-    right: 122px;
-    top: 31%;
-  }
-  .display-6 {
-    font-size: 20px !important;
-  }
-
-  .thphography-text {
-    font-size: 30px;
-  }
-  p.text-center.fw-Bold.m-0.fs-5 {
-    font-size: 14px !important;
-  }
-  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
-    font-size: 13px !important;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: static !important;
-    right: 0px !important;
-  }
-  .infoshotchild {
-    margin-left: 0px !important;
-  }
-
-  .form-sectiontwo {
-    padding-bottom: 10px !important;
-    background: linear-gradient(
-      90deg,
-      #ffffff00 100%,
-      #ffc648 90.2%
-    ) !important;
-  }
-}
-
-/* Media query for screens with a maximum width of 768 pixels */
-@media only screen and (max-width: 768px) {
-  .straightlinetwo::after {
-    height: 0px !important;
-
-    right: 1px !important;
-  }
-  .sticky {
-    width: 125px;
-  }
-  section .typhography {
-    display: flex;
-    justify-content: center;
-    align-items: start;
-    flex-direction: column;
-    margin-top: 0px;
-    right: 90px;
-    top: 31%;
-  }
-  .display-6 {
-    font-size: 20px !important;
-  }
-  .fw-light.fs-2.mt-5.pt-3.mb-0 {
-    margin-top: 0px !important;
-  }
-  .thphography-text {
-    font-size: 24px;
-  }
-  p.text-center.fw-Bold.m-0.fs-5 {
-    font-size: 12px !important;
-  }
-  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
-    font-size: 12px !important;
-  }
-
-  .straightline::before {
-    height: 425px !important;
-  }
-  .underline-effectfour.visible::after {
-    transform: scaleX(0.84) !important;
-  }
-  .underline-effecttwo.visible::after {
-    transform: scaleX(1.126) !important;
-  }
-  .underline-effectthree.visible::after {
-    transform: scaleX(0.857) !important;
-  }
-  .straightlinetwo::after {
-    height: 302px !important;
-    right: 0px !important;
-  }
-
-  /* Styles for screens up to 768 pixels wide */
-  .bg-cards {
-    background: linear-gradient(90deg, #ffc64780 100%, #ededed80 0%) !important;
-  }
-  .txt-ending::after {
-    width: 0px !important;
-  }
-  .txt-ending::before {
-    width: 0px !important;
-  }
-  .underline-effect::after {
-    width: 270px !important;
-  }
-
-  .bg-overview-col {
-    background-position: bottom !important;
-    background-size: 100% 37% !important;
-  }
-  .vertical-line.visible {
-    height: 323px !important;
-    transform: scaleY(1) !important;
-  }
-  .vertical-line {
-    top: -208px !important;
-  }
-  .cards-bg {
-    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
-  }
-  .maincard {
-    background-color: #ffc647 !important;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: static !important;
-    right: 0px !important;
-  }
-}
-
-/* Media query for screens with a maximum width of 578 pixels */
-@media only screen and (max-width: 578px) {
-  .straightlinetwo::after {
-    height: 0px !important;
-
-    right: 1px !important;
-  }
-
-  .straightline::before {
-    height: 0px !important;
-  }
-  .underline-effectfour.visible::after {
-    transform: scaleX(0.7) !important;
-  }
-  .underline-effecttwo.visible::after {
-    transform: scaleX(1) !important;
-  }
-  .underline-effectthree.visible::after {
-    transform: scaleX(0.7) !important;
-  }
-  .straightlinetwo::after {
-    height: 0px !important;
-    right: 0px !important;
-  }
-  /* Styles for screens up to 578 pixels wide */
-  .pad-zero {
-    padding: 21px !important;
-  }
-  .bg-cards {
-    background: linear-gradient(90deg, #ffc64780 50%, #ededed80 50%);
-  }
-  .bg-overview-col {
-    background-position: bottom !important;
-    background-size: 100% 35% !important;
-  }
-  .card {
-    width: 100% !important;
-  }
-  .vertical-line.visible {
-    height: 400px !important;
-    transform: scaleY(0.7) !important;
-  }
-
-  .vertical-line {
-    top: -173px !important;
-  }
-  .cards-bg {
-    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
-  }
-  .maincard {
-    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
-  }
-  section .typhography {
-    display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
-    flex-direction: column;
-    margin-top: 0px;
-    /* text-align: start !important; */
-    position: absolute !important;
-    right: 0px;
-    left: 0px;
-    top: 30px !important;
-    padding-left: 15px;
-  }
-  .display-6 {
-    font-size: 18px !important;
-  }
-  .fw-light.display-6.mt-5.pt-3.mb-0 {
-    margin-top: 0px !important;
-  }
-  .thphography-text {
-    font-size: 23px;
-  }
-  p.text-center.fw-Bold.m-0.fs-5 {
-    font-size: 11px !important;
-  }
-  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
-    font-size: 10px !important;
-  }
-  .underline-effect.visible::after {
-    transform: scaleX(0.8) !important;
-  }
-  .underline-effect::after {
-    top: 100px !important;
-  }
-  .dropdown-item {
-    white-space: inherit !important;
-  }
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    position: static !important;
-    right: 0px !important;
-  }
-  .fs-3 {
-    font-size: 19px !important;
-  }
-}
+@media only screen and (max-width: 1400px) {
+  /* Styles for screens up to 992 pixels wide */
+
+  section.typhography {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    position: absolute;
+    right: 200px;
+    margin-top: 0px;
+  }
+  .display-6 {
+    font-size: 25px !important;
+  }
+  .thphography-text {
+    font-size: 47px;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.866) !important;
+  }
+}
+
+/* Media query for screens with a maximum width of 992 pixels */
+@media only screen and (max-width: 1200px) {
+  /* Styles for screens up to 992 pixels wide */
+
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 0px;
+    right: 122px;
+    top: 31%;
+  }
+  .underline-effect::after {
+    top: 105px !important;
+  }
+  .display-6 {
+    font-size: 25px !important;
+  }
+
+  .thphography-text {
+    font-size: 40px;
+  }
+  p.text-center.fw-Bold.m-0.fs-5 {
+    font-size: 16px !important;
+  }
+  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
+    font-size: 17px !important;
+  }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0.8) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.838) !important;
+  }
+  .card-text {
+    font-size: 17px !important;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* Styles for screens up to 992 pixels wide */
+
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 46% !important;
+  }
+  .infoshotchild {
+    background-color: #333658;
+    margin-left: 6px;
+  }
+  .infoshot {
+    position: static !important;
+    min-width: 0% !important;
+    left: 0% !important;
+    right: 0px !important;
+    margin-top: 79px;
+  }
+
+  .infoshotchild::before {
+    left: 20px !important;
+    top: 7px !important;
+  }
+  .dropdown-menu {
+    border: none !important;
+  }
+  .underline-effectfooter::after {
+    width: 0% !important;
+  }
+  .card-body {
+    background-color: #ffffff !important;
+  }
+  .card .card-body {
+    background-color: #ffffff !important;
+    border: 1px solid;
+  }
+  .straightline::before {
+    height: 0px !important;
+  }
+  .straightlinetwo::after {
+    height: 277px !important;
+    right: 0px !important;
+  }
+  .card-text {
+    height: 100% !important;
+  }
+  .card-text {
+    height: 100% !important;
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(1.116) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.898) !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background-color: #ffc647 !important;
+  }
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 0px;
+    right: 122px;
+    top: 31%;
+  }
+  .display-6 {
+    font-size: 20px !important;
+  }
+
+  .thphography-text {
+    font-size: 30px;
+  }
+  p.text-center.fw-Bold.m-0.fs-5 {
+    font-size: 14px !important;
+  }
+  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
+    font-size: 13px !important;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: static !important;
+    right: 0px !important;
+  }
+  .infoshotchild {
+    margin-left: 0px !important;
+  }
+
+  .form-sectiontwo {
+    padding-bottom: 10px !important;
+    background: linear-gradient(
+      90deg,
+      #ffffff00 100%,
+      #ffc648 100.2%
+    ) !important;
+  }
+}
+
+/* Media query for screens with a maximum width of 768 pixels */
+@media only screen and (max-width: 768px) {
+  .underline-effectformtwo::after {
+    width: 100% !important;
+  }
+  .straightlinetwo::after {
+    height: 0px !important;
+
+    right: 1px !important;
+  }
+  .sticky {
+    width: 125px;
+  }
+  section .typhography {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-top: 0px;
+    right: 90px;
+    top: 31%;
+  }
+  .display-6 {
+    font-size: 20px !important;
+  }
+  .fw-light.fs-2.mt-5.pt-3.mb-0 {
+    margin-top: 0px !important;
+  }
+  .thphography-text {
+    font-size: 24px;
+  }
+  p.text-center.fw-Bold.m-0.fs-5 {
+    font-size: 12px !important;
+  }
+  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
+    font-size: 12px !important;
+  }
+
+  .straightline::before {
+    height: 425px !important;
+  }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0.84) !important;
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(1.126) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.857) !important;
+  }
+  .straightlinetwo::after {
+    height: 302px !important;
+    right: 0px !important;
+  }
+
+  /* Styles for screens up to 768 pixels wide */
+  .bg-cards {
+    background: linear-gradient(90deg, #ffc64780 100%, #ededed80 0%) !important;
+  }
+  .txt-ending::after {
+    width: 0px !important;
+  }
+  .txt-ending::before {
+    width: 0px !important;
+  }
+  .underline-effect::after {
+    width: 270px !important;
+  }
+
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 37% !important;
+  }
+  .vertical-line.visible {
+    height: 323px !important;
+    transform: scaleY(1) !important;
+  }
+  .vertical-line {
+    top: -208px !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background-color: #ffc647 !important;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: static !important;
+    right: 0px !important;
+  }
+}
+
+/* Media query for screens with a maximum width of 578 pixels */
+@media only screen and (max-width: 578px) {
+  .vertical-linethree {
+    display: none !important;
+  }
+  .straightlinetwo::after {
+    height: 0px !important;
+
+    right: 1px !important;
+  }
+
+  .straightline::before {
+    height: 0px !important;
+  }
+  .underline-effectfour.visible::after {
+    transform: scaleX(0.7) !important;
+  }
+  .underline-effecttwo.visible::after {
+    transform: scaleX(1) !important;
+  }
+  .underline-effectthree.visible::after {
+    transform: scaleX(0.7) !important;
+  }
+  .straightlinetwo::after {
+    height: 0px !important;
+    right: 0px !important;
+  }
+  /* Styles for screens up to 578 pixels wide */
+  .pad-zero {
+    padding: 21px !important;
+  }
+  .bg-cards {
+    background: linear-gradient(90deg, #ffc64780 50%, #ededed80 50%);
+  }
+  .bg-overview-col {
+    background-position: bottom !important;
+    background-size: 100% 35% !important;
+  }
+  .card {
+    width: 100% !important;
+  }
+  .vertical-line.visible {
+    height: 400px !important;
+    transform: scaleY(0.7) !important;
+  }
+
+  .vertical-line {
+    top: -173px !important;
+  }
+  .cards-bg {
+    background: linear-gradient(90deg, #ffc647 100%, #ffffff00 0%) !important;
+  }
+  .maincard {
+    background: linear-gradient(90deg, #ffffff00 0%, #ffc647 100%) !important;
+  }
+  section .typhography {
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin-top: 0px;
+    /* text-align: start !important; */
+    position: absolute !important;
+    right: 0px;
+    left: 0px;
+    top: 30px !important;
+    padding-left: 15px;
+  }
+  .display-6 {
+    font-size: 18px !important;
+  }
+  .fw-light.display-6.mt-5.pt-3.mb-0 {
+    margin-top: 0px !important;
+  }
+  .thphography-text {
+    font-size: 23px;
+  }
+  p.text-center.fw-Bold.m-0.fs-5 {
+    font-size: 11px !important;
+  }
+  span.font-color\`.text-center.fw-Bold.fs-5.m-0 {
+    font-size: 10px !important;
+  }
+  .underline-effect.visible::after {
+    transform: scaleX(0.8) !important;
+  }
+  .underline-effect::after {
+    top: 100px !important;
+  }
+  .dropdown-item {
+    white-space: inherit !important;
+  }
+  .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: static !important;
+    right: 0px !important;
+  }
+  .fs-3 {
+    font-size: 19px !important;
+  }
+}
