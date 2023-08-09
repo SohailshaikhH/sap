@@ -51,8 +51,8 @@
 
                             <li class="nav-link p-1">
 
-                                <a class="text-decoration-none text-white" href="#"
-                                    aria-current="page">Medico-marketing</a>
+                                <a class="text-decoration-none text-white" href="#" aria-current="page">Medico-marketing
+                                    communication</a>
 
                             </li>
 
@@ -60,13 +60,16 @@
 
                             <li class="nav-link p-1">
 
-                                <a class="text-decoration-none text-white" href="#">Countinued Medical</a>
+                                <a class="text-decoration-none text-white" href="#">Continued Medical Education & Power
+                                    point
+
+                                    presentations</a>
 
                             </li>
 
                             <li class="nav-link p-1">
 
-                                <a class="text-decoration-none text-white" href="#">pateint education</a>
+                                <a class="text-decoration-none text-white" href="#">Patient education content</a>
 
                             </li>
 
@@ -78,13 +81,13 @@
 
                             <li class="nav-link p-1">
 
-                                <a class="text-decoration-none text-white" href="#">kol management</a>
+                                <a class="text-decoration-none text-white" href="#">KOL Management</a>
 
                             </li>
 
                             <li class="nav-link p-1">
 
-                                <a class="text-decoration-none text-white" href="">Menuscript</a>
+                                <a class="text-decoration-none text-white" href="">Manuscript writing</a>
 
                             </li>
 
