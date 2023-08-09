@@ -24,7 +24,7 @@ if (!empty($_POST["name"]) && !empty($_POST["email"]) && !empty($_POST["number"]
                         'content' => http_build_query(
                             array(
                                 'response' => $_POST['g-recaptcha-response'],
-                                'secret' => '6LexNu8mAAAAAHgW_URYyqg-P8Z-y2DQhRakX7xC' //google captcha code
+                                'secret' => '' //google captcha code
                             )
                         ),
                     ),
