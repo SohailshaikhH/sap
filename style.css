@@ -1,612 +1,890 @@
-body {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-size: 1.2rem;
-  font-family: Roboto;
-}
-.pointer {
-  cursor: pointer;
-}
-/* .pad-zero {
-  padding: 10px !important;
-} */
-.form-control:focus {
-  border-color: #fec345;
-  box-shadow: 0 0 0 0.2rem rgb(254 195 69 / 61%);
-}
-.pagenotfound {
-  background-color: #333659;
-}
-.hovercolor:hover {
-  color: #ffffff !important;
-}
-textarea {
-  resize: none;
-}
-.sticky-top {
-  position: sticky;
-  top: -1px;
-  z-index: 1020;
-}
-.font-colors {
-  color: #ffc647;
-}
-.font-color {
-  color: #585858;
-}
-.main-color {
-  color: #333658;
-}
-.headind-color {
-  color: #333658;
-  font-weight: 900;
-}
-.monospace {
-  letter-spacing: 6px;
-}
-#logo {
-  transition: width 0.3s ease-in-out; /* Adjust the duration (0.3s) to control the speed of the transition */
-}
-
-.heading-one {
-  font-weight: 900;
-  color: #333658;
-  font-size: 3.5rem;
-}
-@font-face {
-  font-family: Roboto-bold;
-  src: url(fonts/Roboto-Bold.ttf);
-}
-
-@font-face {
-  font-family: Roboto;
-  src: url(fonts/Roboto-Regular.ttf);
-}
-.scroll {
-  background-color: rgb(255, 255, 255) !important;
-  /* Background color on scroll */
-}
-
-.bg-header {
-  background: url(images/mainbanner.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-
-  min-height: 100vh;
-  background-size: cover;
-}
-.two-text {
-  background-image: url(images/testimonial.webp);
-  background-position: center;
-  background-repeat: no-repeat;
-
-  background-size: cover;
-}
-.bg-cards {
-  background: linear-gradient(90deg, #ffc648 71%, #ededed 68%);
-}
-.footerbg {
-  background-color: #333658 !important;
-}
-.btns {
-  border-radius: 0px;
-  text-transform: uppercase;
-  position: relative;
-  text-decoration: none;
-  border: none #ffc648;
-  padding: 2px 8px !important;
-  font-size: 1.1rem;
-  background-size: 300%;
-  transition: all 0.6s;
-}
-
-.black {
-  color: black;
-  background-image: linear-gradient(90deg, white 50%, black 50%);
-}
-
-.green {
-  color: green;
-  background-image: linear-gradient(-120deg, green 50%, white 50%);
-}
-.orange {
-  background-image: linear-gradient(70deg, white 50%, orange 50%);
-}
-
-.blue {
-  color: blue;
-  background-image: linear-gradient(160deg, white 50%, blue 50%);
-}
-
-.pink {
-  color: pink;
-  background-image: linear-gradient(20deg, white 50%, pink 50%);
-}
-
-.btns:hover {
-  color: #fff;
-  background-position: 100%;
-  transform: translateX(0.5rem);
-}
-
-.typhography {
-  display: flex;
-  justify-content: center;
-  align-items: start;
-  flex-direction: column;
-  position: absolute;
-  right: 129px;
-  top: 30%;
-}
-
-.thphography-text {
-  letter-spacing: 6px;
-  color: white;
-  position: relative;
-  color: transparent;
-  background-image: linear-gradient(to right, #3c3d63, #3c3d63, transparent);
-  background-size: 200% 100%;
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  background-position-x: 200%;
-  animation: 2s fillup ease-in-out 1s forwards;
-}
-
-.thphography-text::after {
-  content: "ELOQUENT TEXT";
-  position: absolute;
-  top: 0;
-  left: 0;
-  -webkit-text-stroke: 2px;
-  -webkit-text-stroke-color: #3c3d63;
-  -webkit-text-fill-color: transparent;
-  opacity: 0;
-  animation: 2s fadein ease-in-out forwards;
-}
-
-@keyframes fillup {
-  from {
-    background-position-x: 200%;
-  }
-  to {
-    background-position-x: 0%;
-  }
-}
-
-@keyframes fadein {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-/* OVerview section */
-
-h1.thphography-text.display-4.monospace {
-  letter-spacing: 7px;
-}
-.bg-overview-col {
-  background-image: url(images/image2.webp);
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 50%;
-}
-
-.years-rank {
-  position: relative;
-  bottom: 0;
-  top: 300px;
-}
-
-/* OVerview section */
-background-image {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  z-index: -1;
-}
-
-.content {
-  padding: 20px;
-}
-.hr-line {
-  background-color: #ffb000;
-  color: #ffc647;
-  position: relative;
-  transform: matrix(0.7, 0, 0, 1, 0, 1);
-
-  height: 2px;
-  border-radius: 10px;
-}
-
-.image {
-  display: none;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
-}
-.txt-ending {
-  position: relative;
-}
-.txt-ending::after {
-  content: "";
-  height: 2px;
-  background-color: #585854;
-  position: absolute;
-  width: 201px;
-  top: 14px;
-  border-radius: 10px;
-  transform: translateX(10px);
-}
-.txt-ending::before {
-  content: "";
-  height: 2px;
-  background-color: #585854;
-  position: absolute;
-  width: 200px;
-  top: 14px;
-  border-radius: 10px;
-  transform: matrix(1, 0, 0, 1, -210, 0);
-}
-.txt-endingtwo {
-  position: relative;
-}
-.txt-endingtwo::after {
-  content: "";
-  height: 2px;
-  background-color: #585854;
-  position: absolute;
-  width: 293px;
-  transform: translatey(151px);
-  bottom: 10px;
-}
-
-.underline-effect {
-  position: relative;
-}
-
-.underline-effect::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  width: 450px;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  top: 121px;
-}
-.underline-effect.visible::after {
-  transform: scaleX(1); /* Show the underline with animation when in view */
-}
-.underline-effecttwo {
-  position: relative;
-}
-
-.underline-effecttwo::after {
-  content: "";
-  position: absolute;
-  left: -15px;
-  width: 94%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-}
-
-.underline-effecttwo.visible::after {
-  transform: scaleX(1.125);
-}
-
-.underline-effectfour {
-  position: relative;
-}
-
-.underline-effectfour::after {
-  content: "";
-  position: absolute;
-  left: -15px;
-  width: 100%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  top: -11px;
-}
-
-.underline-effectfour.visible::after {
-  transform: scaleX(0.89);
-}
-
-.underline-effectthree {
-  position: relative;
-}
-
-.underline-effectthree::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  top: -28px;
-  left: 85px;
-}
-
-.underline-effectthree.visible::after {
-  transform: scaleX(0.882);
-}
-
-.underline-effectform {
-  position: relative;
-}
-
-.underline-effectform::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  left: 21px;
-  bottom: -8px;
-}
-
-.underline-effectform.visible::after {
-  transform: scaleX(1); /* Show the underline with animation when in view */
-}
-.underline-effectformtwo {
-  position: relative;
-}
-
-.underline-effectformtwo::after {
-  content: "";
-  position: absolute;
-  width: 105%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  bottom: -13px;
-}
-
-.underline-effectformtwo.visible::after {
-  transform: scaleX(1); /* Show the underline with animation when in view */
-}
-
-.underline-effectfooter {
-  position: relative;
-}
-
-.underline-effectfooter::after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  background-color: #fec345;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 2s ease;
-  top: 175px;
-  border-radius: 10px;
-}
-
-.underline-effectfooter.visible::after {
-  transform: scaleX(0.6); /* Show the underline with animation when in view */
-}
-
-.input-col {
-  width: 100%;
-  border-color: #d1d1d1;
-}
-.martop {
-  margin-top: -190px;
-}
-.btn-line {
-  position: relative;
-}
-.btn-line::after {
-  content: "";
-  position: absolute;
-  background-color: #ffc649;
-  width: 110px;
-  left: -5px;
-  height: 2px;
-  top: 30px;
-}
-/* The CSS for the vertical line */
-.vertical-line {
-  position: relative;
-}
-
-.vertical-line {
-  position: absolute;
-  width: 2px;
-  height: 0;
-  background-color: #fec345;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 2s ease;
-  top: -286px;
-  left: 17px;
-  border-radius: 10px;
-}
-
-.vertical-line.visible {
-  height: 400px;
-  transform: scaleY(1);
-}
-.vertical-linetwo {
-  position: relative;
-}
-
-.vertical-linetwo {
-  position: absolute;
-  width: 2px;
-  height: 0;
-  background-color: #fec345;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 2s ease;
-  top: -19px;
-  right: -1px;
-  border-radius: 10px;
-}
-
-.vertical-linetwo.visible {
-  height: 379px;
-  transform: scaleY(1);
-}
-.vertical-linethree {
-  position: absolute;
-  width: 2px;
-  height: 100%;
-  background-color: #fec345;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: transform 2s ease;
-  right: 0%;
-  border-radius: 10px;
-}
-.vertical-linethree.visible {
-  height: 110%;
-  transform: scaleY(1);
-}
-.footersec {
-  background-color: #ededed;
-}
-.cardi-section {
-  background-image: linear-gradient();
-}
-.cardi-section {
-  /* background-image: linear-gradient(45deg, black, transparent); */
-  background: linear-gradient(90deg, #333658 50%, #333658 50%);
-  background-size: 100% 111%;
-  padding-bottom: 300px !important;
-}
-.cards-bg {
-  background: linear-gradient(90deg, #ffc647 49.2%, #ffffff00 48.9%);
-}
-
-.straightline {
-  position: relative;
-}
-.straightline::before {
-  content: "";
-  position: absolute;
-  height: 377px;
-  width: 2px;
-  background-color: #fec345;
-}
-.maincard {
-  background: linear-gradient(90deg, #ffffff00 51%, #ffc647 50%);
-}
-.card-body {
-  background-color: #ffffff00 !important;
-}
-.straightline {
-  position: relative;
-}
-
-.straightlinetwo::after {
-  content: "";
-  position: absolute;
-  height: 338px;
-  width: 2px;
-  background-color: #fec345;
-  right: 0px;
-}
-.font-colorfooter {
-  color: #909090;
-}
-.plussign {
-  position: relative;
-}
-
-.plussign::after {
-  position: absolute;
-
-  content: "+";
-}
-.plussigntwo {
-  position: relative;
-}
-
-.plussigntwo::after {
-  position: absolute;
-
-  content: "M";
-}
-.dropdown:hover .dropdown-menu {
-  display: block;
-  transform: translateY(0px);
-  opacity: 1;
-  margin-top: 0; /* remove the gap so it doesn't close */
-}
-.navbar-expand-lg .navbar-nav .dropdown-menu {
-  position: absolute;
-  right: 0px;
-  transition: all 2s ease-in-out;
-  width: 300px;
-}
-ul.dropdown-menu.show {
-  border-radius: 0px;
-  border: none;
-  transform: translateY(70px);
-  opacity: 0;
-}
-.dropdown-item {
-  white-space: normal;
-}
-.footercolor {
-  background-color: #272a50;
-}
-a:hover {
-  color: #ffb200 !important;
-}
-.infoshotchild {
-  background-color: #333658;
-  margin-left: 6px;
-}
-.infoshot {
-  position: absolute;
-  min-width: 100%;
-  left: 16%;
-  right: 0px;
-}
-.infoshotchild::before {
-  content: "";
-  border-top: 2px solid;
-  width: 100px;
-  height: 90px;
-  position: absolute;
-  border-top: 3px solid #fec345;
-  border-left: 3px solid #fec345;
-  left: -20px;
-  top: -23px;
-}
-
-.form-sectiontwo {
-  padding-bottom: 90px;
-  background: linear-gradient(90deg, #ffffff00 90.9%, #ffc648 90.2%);
-}
-.btn:active {
-  color: #fec345;
-  background-color: #ffae0000 !important;
-  border-color: #ffae0000 !important;
-}
+body {
+  margin: 0;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  font-size: 1.2rem;
+
+  font-family: Roboto;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+/* .pad-zero {
+
+  padding: 10px !important;
+
+} */
+
+.form-control:focus {
+  border-color: #fec345;
+
+  box-shadow: 0 0 0 0.2rem rgb(254 195 69 / 61%);
+}
+
+.pagenotfound {
+  background-color: #333659;
+}
+
+.hovercolor:hover {
+  color: #ffffff !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.sticky-top {
+  position: sticky;
+
+  top: -1px;
+
+  z-index: 1020;
+}
+
+.font-colors {
+  color: #ffc647;
+}
+
+.font-color {
+  color: #585858;
+}
+
+.main-color {
+  color: #333658;
+}
+
+.headind-color {
+  color: #333658;
+
+  font-weight: 900;
+}
+
+.monospace {
+  letter-spacing: 6px;
+}
+
+#logo {
+  transition: width 0.3s ease-in-out; /* Adjust the duration (0.3s) to control the speed of the transition */
+}
+
+.heading-one {
+  font-weight: 900;
+
+  color: #333658;
+
+  font-size: 3.5rem;
+}
+
+@font-face {
+  font-family: Roboto-bold;
+
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+  font-family: Roboto;
+
+  src: url(fonts/Roboto-Regular.ttf);
+}
+
+.scroll {
+  background-color: rgb(255, 255, 255) !important;
+
+  /* Background color on scroll */
+}
+
+.bg-header {
+  background: url(images/mainbanner.jpg);
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+
+  background-size: cover;
+}
+
+.two-text {
+  background-image: url(images/testimonial.webp);
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+
+.bg-cards {
+  background: linear-gradient(90deg, #ffc648 71%, #ededed 68%);
+}
+
+.footerbg {
+  background-color: #333658 !important;
+}
+
+.btns {
+  border-radius: 0px;
+
+  text-transform: uppercase;
+
+  position: relative;
+
+  text-decoration: none;
+
+  border: none #ffc648;
+
+  padding: 2px 8px !important;
+
+  font-size: 1.1rem;
+
+  background-size: 300%;
+
+  transition: all 0.6s;
+}
+
+.black {
+  color: black;
+
+  background-image: linear-gradient(90deg, white 50%, black 50%);
+}
+
+.green {
+  color: green;
+
+  background-image: linear-gradient(-120deg, green 50%, white 50%);
+}
+
+.orange {
+  background-image: linear-gradient(70deg, white 50%, orange 50%);
+}
+
+.blue {
+  color: blue;
+
+  background-image: linear-gradient(160deg, white 50%, blue 50%);
+}
+
+.pink {
+  color: pink;
+
+  background-image: linear-gradient(20deg, white 50%, pink 50%);
+}
+
+.btns:hover {
+  color: #fff;
+
+  background-position: 100%;
+
+  transform: translateX(0.5rem);
+}
+
+.typhography {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: start;
+
+  flex-direction: column;
+
+  position: absolute;
+
+  right: 129px;
+
+  top: 30%;
+}
+
+.thphography-text {
+  letter-spacing: 6px;
+
+  color: white;
+
+  position: relative;
+
+  color: transparent;
+
+  background-image: linear-gradient(to right, #3c3d63, #3c3d63, transparent);
+
+  background-size: 200% 100%;
+
+  background-repeat: no-repeat;
+
+  -webkit-background-clip: text;
+
+  background-position-x: 200%;
+
+  animation: 2s fillup ease-in-out 1s forwards;
+}
+
+.thphography-text::after {
+  content: "ELOQUENT TEXT";
+
+  position: absolute;
+
+  top: 0;
+
+  left: 0;
+
+  -webkit-text-stroke: 2px;
+
+  -webkit-text-stroke-color: #3c3d63;
+
+  -webkit-text-fill-color: transparent;
+
+  opacity: 0;
+
+  animation: 2s fadein ease-in-out forwards;
+}
+
+@keyframes fillup {
+  from {
+    background-position-x: 200%;
+  }
+
+  to {
+    background-position-x: 0%;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+/* OVerview section */
+
+h1.thphography-text.display-4.monospace {
+  letter-spacing: 7px;
+}
+
+.bg-overview-col {
+  background-image: url(images/image2.webp);
+
+  background-repeat: no-repeat;
+
+  background-position: right;
+
+  background-size: 50%;
+}
+
+.years-rank {
+  position: relative;
+
+  bottom: 0;
+
+  top: 300px;
+}
+
+/* OVerview section */
+
+background-image {
+  position: fixed;
+
+  top: 0;
+
+  left: 0;
+
+  width: 100%;
+
+  height: 100%;
+
+  background-size: cover;
+
+  background-position: center;
+
+  z-index: -1;
+}
+
+.content {
+  padding: 20px;
+}
+
+.hr-line {
+  background-color: #ffb000;
+
+  color: #ffc647;
+
+  position: relative;
+
+  transform: matrix(0.7, 0, 0, 1, 0, 1);
+
+  height: 2px;
+
+  border-radius: 10px;
+}
+
+.image {
+  display: none;
+
+  position: fixed;
+
+  transform: translate(-50%, -50%);
+
+  top: 50%;
+
+  left: 50%;
+}
+
+.txt-ending {
+  position: relative;
+}
+
+.txt-ending::after {
+  content: "";
+
+  height: 2px;
+
+  background-color: #585854;
+
+  position: absolute;
+
+  width: 201px;
+
+  top: 14px;
+
+  border-radius: 10px;
+
+  transform: translateX(10px);
+}
+
+.txt-ending::before {
+  content: "";
+
+  height: 2px;
+
+  background-color: #585854;
+
+  position: absolute;
+
+  width: 200px;
+
+  top: 14px;
+
+  border-radius: 10px;
+
+  transform: matrix(1, 0, 0, 1, -210, 0);
+}
+
+.txt-endingtwo {
+  position: relative;
+}
+
+.txt-endingtwo::after {
+  content: "";
+
+  height: 2px;
+
+  background-color: #585854;
+
+  position: absolute;
+
+  width: 293px;
+
+  transform: translatey(151px);
+
+  bottom: 10px;
+}
+
+.underline-effect {
+  position: relative;
+}
+
+.underline-effect::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+
+  width: 450px;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  top: 121px;
+}
+
+.underline-effect.visible::after {
+  transform: scaleX(1); /* Show the underline with animation when in view */
+}
+
+.underline-effecttwo {
+  position: relative;
+}
+
+.underline-effecttwo::after {
+  content: "";
+
+  position: absolute;
+
+  left: -15px;
+
+  width: 94%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+}
+
+.underline-effecttwo.visible::after {
+  transform: scaleX(1.125);
+}
+
+.underline-effectfour {
+  position: relative;
+}
+
+.underline-effectfour::after {
+  content: "";
+
+  position: absolute;
+
+  left: -15px;
+
+  width: 100%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  top: -11px;
+}
+
+.underline-effectfour.visible::after {
+  transform: scaleX(0.89);
+}
+
+.underline-effectthree {
+  position: relative;
+}
+
+.underline-effectthree::after {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  top: -28px;
+
+  left: 85px;
+}
+
+.underline-effectthree.visible::after {
+  transform: scaleX(0.882);
+}
+
+.underline-effectform {
+  position: relative;
+}
+
+.underline-effectform::after {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  left: 21px;
+
+  bottom: -8px;
+}
+
+.underline-effectform.visible::after {
+  transform: scaleX(1); /* Show the underline with animation when in view */
+}
+
+.underline-effectformtwo {
+  position: relative;
+}
+
+.underline-effectformtwo::after {
+  content: "";
+
+  position: absolute;
+
+  width: 105%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  bottom: -13px;
+}
+
+.underline-effectformtwo.visible::after {
+  transform: scaleX(1); /* Show the underline with animation when in view */
+}
+
+.underline-effectfooter {
+  position: relative;
+}
+
+.underline-effectfooter::after {
+  content: "";
+
+  position: absolute;
+
+  width: 100%;
+
+  height: 2px;
+
+  background-color: #fec345;
+
+  transform: scaleX(0);
+
+  transform-origin: left;
+
+  transition: transform 2s ease;
+
+  top: 175px;
+
+  border-radius: 10px;
+}
+
+.underline-effectfooter.visible::after {
+  transform: scaleX(0.6); /* Show the underline with animation when in view */
+}
+
+.input-col {
+  width: 100%;
+
+  border-color: #d1d1d1;
+}
+
+.martop {
+  margin-top: -190px;
+}
+
+.btn-line {
+  position: relative;
+}
+
+.btn-line::after {
+  content: "";
+
+  position: absolute;
+
+  background-color: #ffc649;
+
+  width: 110px;
+
+  left: -5px;
+
+  height: 2px;
+
+  top: 30px;
+}
+
+/* The CSS for the vertical line */
+
+.vertical-line {
+  position: absolute;
+  width: 2px;
+  background-color: #fec345;
+  transform: scaleY(0);
+  transform-origin: top;
+  transition: transform 2s ease;
+  left: 17px;
+  border-radius: 10px;
+  bottom: 17px;
+}
+
+.vertical-line.visible {
+  height: 100%;
+  transform: scaleY(1);
+}
+
+.vertical-linetwo {
+  position: relative;
+}
+
+.vertical-linetwo {
+  position: absolute;
+
+  width: 2px;
+
+  height: 0;
+
+  background-color: #fec345;
+
+  transform: scaleY(0);
+
+  transform-origin: top;
+
+  transition: transform 2s ease;
+
+  top: -19px;
+
+  right: -1px;
+
+  border-radius: 10px;
+}
+
+.vertical-linetwo.visible {
+  height: 379px;
+
+  transform: scaleY(1);
+}
+
+.vertical-linethree {
+  position: absolute;
+
+  width: 2px;
+
+  height: 100%;
+
+  background-color: #fec345;
+
+  transform: scaleY(0);
+
+  transform-origin: top;
+
+  transition: transform 2s ease;
+
+  right: -1%;
+
+  border-radius: 10px;
+}
+
+.vertical-linethree.visible {
+  height: 111%;
+
+  transform: scaleY(1);
+}
+
+.footersec {
+  background-color: #ededed;
+}
+
+.cardi-section {
+  background-image: linear-gradient();
+}
+
+.cardi-section {
+  /* background-image: linear-gradient(45deg, black, transparent); */
+
+  background: linear-gradient(90deg, #333658 50%, #333658 50%);
+
+  background-size: 100% 111%;
+
+  padding-bottom: 300px !important;
+}
+
+.cards-bg {
+  background: linear-gradient(90deg, #ffc647 49.2%, #ffffff00 48.9%);
+}
+
+.straightline {
+  position: relative;
+}
+
+.straightline::before {
+  content: "";
+
+  position: absolute;
+
+  height: 377px;
+
+  width: 2px;
+
+  background-color: #fec345;
+}
+
+.maincard {
+  background: linear-gradient(90deg, #ffffff00 51%, #ffc647 50%);
+}
+
+.card-body {
+  background-color: #ffffff00 !important;
+}
+
+.straightline {
+  position: relative;
+}
+
+.straightlinetwo::after {
+  content: "";
+
+  position: absolute;
+
+  height: 338px;
+
+  width: 2px;
+
+  background-color: #fec345;
+
+  right: 0px;
+}
+
+.font-colorfooter {
+  color: #909090;
+}
+
+.plussign {
+  position: relative;
+}
+
+.plussign::after {
+  position: absolute;
+
+  content: "+";
+}
+
+.plussigntwo {
+  position: relative;
+}
+
+.plussigntwo::after {
+  position: absolute;
+
+  content: "M";
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+  transform: translateY(0px);
+
+  opacity: 1;
+
+  margin-top: 0; /* remove the gap so it doesn't close */
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+
+  right: 0px;
+
+  transition: all 2s ease-in-out;
+
+  width: 300px;
+}
+
+ul.dropdown-menu.show {
+  border-radius: 0px;
+
+  border: none;
+
+  transform: translateY(70px);
+
+  opacity: 0;
+}
+
+.dropdown-item {
+  white-space: normal;
+}
+
+.footercolor {
+  background-color: #272a50;
+}
+
+a:hover {
+  color: #ffb200 !important;
+}
+
+.infoshotchild {
+  background-color: #333658;
+
+  margin-left: 6px;
+}
+
+.infoshot {
+  position: absolute;
+
+  min-width: 100%;
+
+  left: 16%;
+
+  right: 0px;
+}
+
+.infoshotchild::before {
+  content: "";
+
+  border-top: 2px solid;
+
+  width: 100px;
+
+  height: 90px;
+
+  position: absolute;
+
+  border-top: 3px solid #fec345;
+
+  border-left: 3px solid #fec345;
+
+  left: -20px;
+
+  top: -23px;
+}
+
+.form-sectiontwo {
+  padding-bottom: 90px;
+
+  background: linear-gradient(90deg, #ffffff00 90.9%, #ffc648 90.2%);
+}
+
+.btn:active {
+  color: #fec345;
+
+  background-color: #ffae0000 !important;
+
+  border-color: #ffae0000 !important;
+}
