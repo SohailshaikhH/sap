@@ -14,15 +14,16 @@ include 'head.php'
 
 <body>
 
-    <header>
 
-        <?php
+
+
+    <?php
 
         include 'header.php';
 
         ?>
 
-    </header>
+
 
     <section class="form-sectiontwo mb-5  ">
 

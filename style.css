@@ -42,7 +42,7 @@ textarea {
   position: sticky;
 
   top: -1px;
-
+  border: none;
   z-index: 1020;
 }
 
@@ -887,4 +887,72 @@ a:hover {
   background-color: #ffae0000 !important;
 
   border-color: #ffae0000 !important;
+}
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+.straightline::before {
+    height: 443px !important;
+}
+
+.underline-effectfour::after {
+    left: -31px;
+    top: 5px;
+}
+
+
+}
+
+
+
+
+
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.straightline::before {
+    height: 413px;
+}
+
+.underline-effectfour::after {
+
+    left: -35px;
+
+    top: 5px;
+}
+}
+
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+
+.straightline::before {
+    height: 440px;
+}
+
+
+.underline-effectfour::after {
+
+    left: -31px;
+   
+    top: 3px;
+}
+
+
+
 }

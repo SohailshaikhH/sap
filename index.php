@@ -38,8 +38,8 @@ include 'head.php';
 
             <div class="container p-0">
 
-                <a class="navbar-brand" href="#"><img id="logo" src="images/logos/logo.png" loading="lazy"
-                        style="width: 180px" alt="SAP" /></a>
+                <a class="navbar-brand" href="#"><img id="logo" style="width: 180px;" src="images/logos/logo.png"
+                        loading="lazy" alt="SAP" /></a>
 
 
 
@@ -167,14 +167,14 @@ include 'head.php';
 
             </h1>
 
-            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">
+            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
+                data-aos-easing="ease-in-out">
 
                 Eloquent text Is the content in which
 
             </p>
 
-            <span class="fw-Bold headind-color display-6 mb-0" data-aos="zoom-out-left" data-aos-delay="100"
+            <span class="fw-Bold headind-color display-6 mb-0" data-aos="fade-up" data-aos-delay="100"
                 data-aos-duration="800" data-aos-easing="ease-in-out">
 
                 the doctor find merit, <br />and sponsor finds value
@@ -247,32 +247,32 @@ include 'head.php';
                                         <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-right"
                                             data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
 
-                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
-                                                data-count="50"></h2>
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign  main-color fs-1"
+                                                data-count="20"></h2>
 
 
 
-                                            <p class="text-center fs-6">Business Partner</p>
+                                            <p class=" fs-6">Clients</p>
 
                                         </div>
 
                                         <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
                                             data-aos-duration="800" data-aos-easing="ease-in-out">
 
-                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo text-center main-color fs-1"
-                                                data-count="7"></h2>
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo  main-color fs-1"
+                                                data-count="1000"></h2>
 
 
 
-                                            <p class="text-center fw-light fs-6">Happy Reader</p>
+                                            <p class=" fw-light fs-6">Documents</p>
 
                                         </div>
 
                                         <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
                                             data-aos-duration="800" data-aos-easing="ease-in-out">
 
-                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
-                                                data-count="300">
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers text-center main-color fs-1"
+                                                data-count="100000">
 
                                                 0
 
@@ -280,7 +280,7 @@ include 'head.php';
 
                                             <span class="fw-bold text-center counternumcolor fw-bolder pb-5"></span>
 
-                                            <p class="text-center fs-6">lorem ipsum</p>
+                                            <p class="text-center fs-6">Print Copies</p>
 
                                         </div>
 
@@ -305,7 +305,7 @@ include 'head.php';
                         <div class="years-rank">
 
                             <h2 class="countersize counternumcolor fw-bold counter-numbers text-white fs-1 ps-4"
-                                data-count="25">
+                                data-count="10">
 
                                 0
 
@@ -425,7 +425,8 @@ include 'head.php';
 
                                     PowerPoint presentations are at the heart of communication.
 
-                                    They are needed for education, CME marketing and sales. We
+                                    They are needed for continued medical education, conferences, marketing and sales.
+                                    We
 
                                     create high-quality PPT content following thoroughly
 
@@ -496,9 +497,8 @@ include 'head.php';
 
                                     healthcare. Our content is written in the simplest possible
 
-                                    language, with images and infographics. Highschool students
-
-                                    can even understand our content. Our patient education
+                                    language, with images and infographics. Even high schoolers can understand our
+                                    content. Our patient education
 
                                     content is demanded by doctors and printed again and again.
 
@@ -539,9 +539,11 @@ include 'head.php';
 
                                     communication. We interact with KOLs of almost all medical
 
-                                    specialties in India. We try our best to get what KOLs
-
-                                    requires in the minimum possible time.
+                                    specialties in India. We do KOL
+                                    management
+                                    efficiently, considering
+                                    the busy schedule of
+                                    KOLs.
 
                                 </p>
 
@@ -630,26 +632,23 @@ include 'head.php';
 
                                 <h2 class="card-title pb-4 headind-color word-wrap font-color">
 
-                                    Continued Medical Education & Power point presentations
+                                    Enabling effective communication using technology
 
                                 </h2>
 
                                 <p class="card-text pb-5 font-color" style="height: 220px">
+                                    We make good use of technology to improve our processes or
+                                    communication. For example, we design software when we
+                                    have to do a large-scale survey. We make dashboards when we
+                                    have to involve multiple key opinion leaders in our projects.
 
-                                    PowerPoint presentations are at the heart of communication.
+                                    We also personalize medical communication inputs –
+                                    electronic or print – even at a larger scale, like patient
+                                    education materials or personalized doctor educational
+                                    materials.
 
-                                    They are needed for education, CME marketing and sales. We
-
-                                    create high-quality PPT content following thoroughly
-
-                                    searching the medical literature. The content tone is
-
-                                    tailor-made to the specified target audience. We prefer data
-
-                                    to speak as much as possible over text. The captive flow and
-
-                                    creative infographics are at the heart of our presentations.
-
+                                    With experience over the last 5 years, our process has grown
+                                    strong and efficient.
                                 </p>
 
 
@@ -1235,30 +1234,6 @@ include 'head.php';
                 },
 
             }).mount(window.splide.Extensions);
-
-        });
-
-
-
-        window.addEventListener("scroll", function () {
-
-            const logo = document.getElementById("logo");
-
-            const logoWidthSticky = "125px";
-
-            const logoWidthNormal = "180px";
-
-
-
-            if (window.scrollY > 6) {
-
-                logo.style.width = logoWidthSticky; // Change logo width to 125px when sticky
-
-            } else {
-
-                logo.style.width = logoWidthNormal; // Change logo width to 300px when not sticky
-
-            }
 
         });
     </script>

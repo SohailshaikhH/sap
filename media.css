@@ -28,6 +28,12 @@
   .underline-effectthree.visible::after {
     transform: scaleX(0.866) !important;
   }
+  .infoshot {
+    position: absolute;
+    min-width: 100%;
+    left: 8% !important;
+    right: 0px;
+  }
 }
 
 /* Media query for screens with a maximum width of 992 pixels */
@@ -49,6 +55,9 @@
     right: 122px;
 
     top: 31%;
+  }
+  .underline-effectformtwo::after {
+    width: 100% !important;
   }
 
   .underline-effect::after {
@@ -81,6 +90,12 @@
 
   .card-text {
     font-size: 17px !important;
+  }
+  .infoshot {
+    position: absolute;
+    min-width: 100%;
+    left: 7% !important;
+    right: 0px;
   }
 }
 
