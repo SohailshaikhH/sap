@@ -38,7 +38,7 @@ include 'head.php';
 
             <div class="container p-0">
 
-                <a class="navbar-brand" href="#"><img id="logo" style="width: 180px;" src="images/logos/logo.png"
+                <a class="navbar-brand" href="#"><img id="logo" style="width: 180px;" src="images/logos/logo.webp"
                         loading="lazy" alt="SAP" /></a>
 
 
@@ -154,28 +154,26 @@ include 'head.php';
 
     <section class="position-relative">
 
-        <img src="images/mainbanner.jpg" style="width: 100%" alt="" />
+        <img src="images/mainbanner.webp" style="width: 100%" alt="" />
 
         <div class="typhography">
 
-            <h1 class="display-6 monospace fw-light" data-aos="zoom-out-left" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">To create what we call</h1>
+            <h1 class="display-6 monospace fw-light" data-aos="fade-up">To create what we
+                call</h1>
 
-            <h1 class="thphography-text display-3 headind-color monospace">
+            <h1 class=" thphography-text display-3 headind-color monospace">
 
                 ELOQUENT TEXT
 
             </h1>
 
-            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-                data-aos-easing="ease-in-out">
+            <p class="fw-light display-6 mt-5 pt-3 mb-0" data-aos="fade-up" data-aos-duration="1200">
 
                 Eloquent text Is the content in which
 
             </p>
 
-            <span class="fw-Bold headind-color display-6 mb-0" data-aos="fade-up" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">
+            <span class="fw-Bold headind-color display-6 mb-0" data-aos="fade-up" data-aos-duration="1400">
 
                 the doctor find merit, <br />and sponsor finds value
 
@@ -199,8 +197,7 @@ include 'head.php';
 
                 <!-- <span class="txt-endingtwo"></span> -->
 
-                <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4" data-aos="fade-right"
-                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <h1 class="monospace display-5 headind-color fw-Bolder pt-5 m-0 pb-4" data-aos="fade-up">
 
                     OVERVIEW
 
@@ -217,7 +214,7 @@ include 'head.php';
                         <div class="overview-text">
 
                             <p class="font-color py-5 pe-4 pad-zero" style="text-align: justify" data-aos="fade-up"
-                                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                                data-aos-duration="1000">
 
                                 Welcome to Scientific Angle, where the language of medicine
 
@@ -237,15 +234,13 @@ include 'head.php';
 
                             </p>
 
-                            <section class="section section-work-data" data-aos="fade-right" data-aos-delay="100"
-                                data-aos-duration="800" data-aos-easing="ease-in-out">
+                            <section class="section section-work-data">
 
                                 <div class="container" id="counter">
 
                                     <div class="row">
 
-                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-right"
-                                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up">
 
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussign  main-color fs-1"
                                                 data-count="20"></h2>
@@ -256,8 +251,8 @@ include 'head.php';
 
                                         </div>
 
-                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
-                                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up"
+                                            data-aos-duration="1000">
 
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo  main-color fs-1"
                                                 data-count="1000"></h2>
@@ -268,8 +263,8 @@ include 'head.php';
 
                                         </div>
 
-                                        <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up" data-aos-delay="100"
-                                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                                        <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up"
+                                            data-aos-duration="1200">
 
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers text-center main-color fs-1"
                                                 data-count="100000">
@@ -296,8 +291,7 @@ include 'head.php';
 
                 </div>
 
-                <div class="col-lg-5 col-md-12 position-relative" style="height: 434px" data-aos="fade-left"
-                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <div class="col-lg-5 col-md-12 position-relative" data-aos="fade-up" style="height: 434px">
                     <div class="vertical-line"></div>
 
                     <div class="">
@@ -340,8 +334,8 @@ include 'head.php';
 
                 <!-- <span class="txt-endingtwo"></span> -->
 
-                <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4" data-aos="zoom-out-right"
-                    data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                <h1 class="monospace display-5 text-white fw-Bolder pt-5 m-0 pb-4" data-aos="fade-up"
+                    data-aos-duration="1000">
 
                     OUR WORK
 
@@ -363,8 +357,7 @@ include 'head.php';
 
                     <div class="col-lg-6 col-md-12">
 
-                        <div class="" data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
-                            data-aos-easing="ease-in-out">
+                        <div class="" data-aos="fade-up">
 
                             <div class="card border-0 rounded-0 pb-4" style="background: none">
 
@@ -372,13 +365,13 @@ include 'head.php';
 
                                 <div class="card-body cards-body">
 
-                                    <h2 class="card-title headind-color pb-5 font-color">
+                                    <h2 class="card-title headind-color  font-color">
 
                                         Medico-marketing communication
 
                                     </h2>
 
-                                    <p class="card-text pb-5 font-color mt-4" style="height: 210px">
+                                    <p class="card-text para-height  font-color ">
 
                                         We give a very strong rationale for writing a product. The rationale is not just
 
@@ -406,8 +399,7 @@ include 'head.php';
 
                     <div class="col-lg-6 col-md-12">
 
-                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
-                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="card border-0 rounded-0" data-aos="fade-up" data-aos-duration="1300">
 
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
@@ -415,13 +407,13 @@ include 'head.php';
 
                             <div class="card-body">
 
-                                <h2 class="card-title pb-4 headind-color word-wrap font-color">
+                                <h2 class="card-title  headind-color word-wrap font-color">
 
                                     Continued Medical Education & Power point presentations
 
                                 </h2>
 
-                                <p class="card-text pb-5 font-color" style="height: 220px">
+                                <p class="card-text para-height  font-color">
 
                                     PowerPoint presentations are at the heart of communication.
 
@@ -474,8 +466,7 @@ include 'head.php';
 
                     <div class="col-lg-6 col-md-12">
 
-                        <div class="card border-0 rounded-0 mb-4" data-aos="fade-right" data-aos-delay="100"
-                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="card border-0 rounded-0 mb-4" data-aos="fade-up">
 
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
@@ -485,13 +476,13 @@ include 'head.php';
 
                             <div class="card-body">
 
-                                <h2 class="card-title pb-4 headind-color font-color">
+                                <h2 class="card-title  headind-color font-color">
 
                                     Patient education content
 
                                 </h2>
 
-                                <p class="card-text pb-3 font-color" style="height: 220px">
+                                <p class="card-text para-height  font-color">
 
                                     We understand that Patients are very important partners in
 
@@ -518,20 +509,20 @@ include 'head.php';
 
                     <div class="col-lg-6 col-md-12">
 
-                        <div class="card border-0 rounded-0" style="background: none" data-aos="fade-left"
-                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="card border-0 rounded-0" style="background: none" data-aos="fade-up"
+                            data-aos-duration="1300">
 
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
                             <div class="card-body cards-body">
 
-                                <h2 href="#" role="button" class="card-title pb-4 headind-color font-color">
+                                <h2 href="#" role="button" class="card-title  headind-color font-color">
 
                                     KOL Management
 
                                 </h2>
 
-                                <p class="card-text pb-3 font-color" style="height: 220px">
+                                <p class="card-text para-height  font-color">
 
                                     Case reports, clinical opinions, CMEs and whatnot, KOL
 
@@ -563,7 +554,7 @@ include 'head.php';
 
     </section>
 
-    <section class="cards-bg pb-5">
+    <section class="cards-bg ">
 
         <div class="container">
 
@@ -580,20 +571,19 @@ include 'head.php';
                                 <div class="col">
 
                                     <div class="card border-0 rounded-0 mb-4" style="background: none"
-                                        data-aos="fade-right" data-aos-delay="100" data-aos-duration="800"
-                                        data-aos-easing="ease-in-out">
+                                        data-aos="fade-up">
 
                                         <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
                                         <div class="card-body cards-body">
 
-                                            <h2 class="card-title pb-5 headind-color font-color">
+                                            <h2 class="card-title  headind-color font-color">
 
                                                 Manuscript writing
 
                                             </h2>
 
-                                            <p class="card-text pb-3 mt-4 font-color" style="height: 220px">
+                                            <p class="card-text para-height font-color">
 
                                                 We provide manuscript writing, editorial support,
 
@@ -621,22 +611,21 @@ include 'head.php';
 
                     <div class="col-lg-6 col-md-12">
 
-                        <div class="card border-0 rounded-0" data-aos="fade-left" data-aos-delay="100"
-                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <div class="card border-0 rounded-0" data-aos="fade-up" data-aos-duration="1300">
 
                             <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
 
-                            <div class="straightline"></div>
+                            <div class="straightlineabhi"></div>
 
                             <div class="card-body">
 
-                                <h2 class="card-title pb-4 headind-color word-wrap font-color">
+                                <h2 class="card-title  headind-color word-wrap font-color">
 
                                     Enabling effective communication using technology
 
                                 </h2>
 
-                                <p class="card-text pb-5 font-color" style="height: 220px">
+                                <p class="card-text para-height  font-color">
                                     We make good use of technology to improve our processes or
                                     communication. For example, we design software when we
                                     have to do a large-scale survey. We make dashboards when we
@@ -681,8 +670,8 @@ include 'head.php';
 
             <div class="underline-effect"></div>
 
-            <h1 class="monospace display-5 headind-color pt-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">Our Clients</h1>
+            <h1 class="monospace display-5 headind-color pt-5 m-0" data-aos="fade-up">Our
+                Clients</h1>
 
             <section class="fill-section">
 
@@ -690,8 +679,7 @@ include 'head.php';
 
             </section>
 
-            <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading" data-aos="fade-up"
-                data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+            <section id="featured-product" class="splide py-5" aria-labelledby="carousel-heading" data-aos="fade-up">
 
                 <div class="splide__track">
 
@@ -839,8 +827,7 @@ include 'head.php';
 
                     <div class="py-5">
 
-                        <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5" data-aos="fade-up"
-                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <h1 class="display-6 text-white text-center text-uppercase fw-Bold pt-5" data-aos="fade-up">
 
                             what our clients say about us
 
@@ -848,8 +835,7 @@ include 'head.php';
 
                         </h1>
 
-                        <p class="font-colors text-center pb-5" data-aos="fade-up" data-aos-delay="100"
-                            data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <p class="font-colors text-center pb-5" data-aos="fade-up" data-aos-duration="1000">
 
                             Lorem ipsum dolor sit amet consectetur adipisicing Itaque
 
@@ -869,12 +855,11 @@ include 'head.php';
 
                 <div class="col-lg-2"></div>
 
-                <div class="col" data-aos="fade-up" data-aos-delay="500" data-aos-duration="800"
-                    data-aos-easing="ease-in-out">
+                <div class="col">
 
                     <div class="text-row d-flex align-items-center justify-content-center">
 
-                        <p class="font-color text-center text-justify mt-5">
+                        <p class="font-color text-center text-justify mt-5" data-aos="fade-up" data-aos-duration="1200">
 
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
 
@@ -894,7 +879,8 @@ include 'head.php';
 
                     </div>
 
-                    <p class="txt-ending text-center font-color">lorem ipsum</p>
+                    <p class="txt-ending text-center font-color" data-aos="fade-up" data-aos-duration="1300">lorem ipsum
+                    </p>
 
                 </div>
 
@@ -912,15 +898,14 @@ include 'head.php';
 
             <div class="underline-effect"></div>
 
-            <h1 class="monospace display-6 headind-color py-5 m-0" data-aos="zoom-out-right" data-aos-delay="100"
-                data-aos-duration="800" data-aos-easing="ease-in-out">GET IN TOUCH</h1>
+            <h1 class="monospace display-6 headind-color py-5 m-0">GET IN
+                TOUCH</h1>
 
-            <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()"
-                data-aos="fade-up" data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+            <form class=" rounded-5 pad-zero" method="POST" action="home-form.php" onsubmit="return validateForm()">
 
                 <div class="row">
 
-                    <div class="col-lg-16 col-md-6">
+                    <div class="col-lg-16 col-md-6" data-aos="fade-up">
 
                         <div class="mb-3 pb-1">
 
@@ -962,7 +947,7 @@ include 'head.php';
 
                     </div>
 
-                    <div class="col-lg-16 col-md-6 underline-effectformtwo">
+                    <div class="col-lg-16 col-md-6 underline-effectformtwo" data-aos="fade-up" data-aos-duration="1300">
 
                         <div class="vertical-linetwo"></div>
 
@@ -1022,8 +1007,7 @@ include 'head.php';
 
                     <div class="" style="height: 400px">
 
-                        <h1 class="monospace display-5 headind-color pt-5 m-0 px-1" data-aos="zoom-out-right"
-                            data-aos-delay="100" data-aos-duration="800" data-aos-easing="ease-in-out">
+                        <h1 class="monospace display-5 headind-color pt-5 m-0 px-1" data-aos="fade-up">
 
                             CHECKOUT OUR BLOGS
 
@@ -1053,8 +1037,7 @@ include 'head.php';
 
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center mb-sm-0">
 
-                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
-                        data-aos-duration="500" data-aos-easing="ease-in-out">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-duration="1000">
 
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
 
@@ -1088,8 +1071,7 @@ include 'head.php';
 
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
 
-                    <div class="card footerbg mb-4" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800"
-                        data-aos-easing="ease-in-out">
+                    <div class="card footerbg mb-4" data-aos="fade-up" data-aos-duration="1200">
 
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
 
@@ -1125,8 +1107,7 @@ include 'head.php';
 
                 <div class="col-lg-4 col-md-4 col-sm-12 d-flex justify-content-center text-center">
 
-                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-delay="100"
-                        data-aos-duration="1200" data-aos-easing="ease-in-out">
+                    <div class="card footerbg text-centerw-50 mb-4" data-aos="fade-up" data-aos-duration="1400">
 
                         <img src="images/image 3.webp" class="img-fluid" alt="" />
 
@@ -1203,39 +1184,39 @@ include 'head.php';
     <script src="js/splide-extension-auto-scroll.min.js"></script>
 
     <script defer>
-        document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
 
-            new Splide("#featured-product", {
+        new Splide("#featured-product", {
 
-                type: "loop",
+            type: "loop",
 
-                drag: "free",
+            drag: "free",
 
-                focus: "center",
+            focus: "center",
 
-                perPage: 2,
+            perPage: 2,
 
-                arrows: false,
+            arrows: false,
 
-                pagination: false,
+            pagination: false,
 
-                padding: "0%",
+            padding: "0%",
 
-                autoWidth: true,
+            autoWidth: true,
 
-                gap: "40px",
+            gap: "40px",
 
 
 
-                autoScroll: {
+            autoScroll: {
 
-                    speed: 0.5,
+                speed: 0.5,
 
-                },
+            },
 
-            }).mount(window.splide.Extensions);
+        }).mount(window.splide.Extensions);
 
-        });
+    });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -1245,87 +1226,87 @@ include 'head.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
 
     <script>
-        $(document).ready(function () {
+    $(document).ready(function() {
 
-            // Scroll-to-Target
+        // Scroll-to-Target
 
-            $(".scroll-to-target").on("click", function () {
+        $(".scroll-to-target").on("click", function() {
 
-                var target = $(this).attr("data-target");
+            var target = $(this).attr("data-target");
 
-                $("html, body").animate({
+            $("html, body").animate({
 
                     scrollTop: $(target).offset().top,
 
                 },
 
-                    10000
+                10000
 
-                );
+            );
 
-            });
-
-
-
-            // WOW Animation
-
-            new WOW().init();
+        });
 
 
 
-            // Fact Counter Animation
+        // WOW Animation
 
-            $(window).on("scroll", function () {
-
-                if ($(".counter-numbers:not(.counted)").length) {
-
-                    $(".counter-numbers:not(.counted)").each(function () {
-
-                        var counter = $(this);
-
-                        var targetCount = parseInt(counter.attr("data-count"), 10);
-
-                        var speed = 4000; // Adjust the speed as per your preference
+        new WOW().init();
 
 
 
-                        $({
+        // Fact Counter Animation
 
-                            countNum: 0
+        $(window).on("scroll", function() {
 
-                        }).animate({
+            if ($(".counter-numbers:not(.counted)").length) {
 
-                            countNum: targetCount
+                $(".counter-numbers:not(.counted)").each(function() {
 
-                        }, {
+                    var counter = $(this);
 
-                            duration: speed,
+                    var targetCount = parseInt(counter.attr("data-count"), 10);
 
-                            easing: "linear",
+                    var speed = 4000; // Adjust the speed as per your preference
 
-                            step: function () {
 
-                                counter.text(Math.floor(this.countNum));
 
-                            },
+                    $({
 
-                            complete: function () {
+                        countNum: 0
 
-                                counter.text(this.countNum);
+                    }).animate({
 
-                                counter.addClass("counted");
+                        countNum: targetCount
 
-                            },
+                    }, {
 
-                        });
+                        duration: speed,
+
+                        easing: "linear",
+
+                        step: function() {
+
+                            counter.text(Math.floor(this.countNum));
+
+                        },
+
+                        complete: function() {
+
+                            counter.text(this.countNum);
+
+                            counter.addClass("counted");
+
+                        },
 
                     });
 
-                }
+                });
 
-            });
+            }
 
         });
+
+    });
     </script>
 
 

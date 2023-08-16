@@ -27,7 +27,10 @@ body {
 }
 
 .pagenotfound {
-  background-color: #333659;
+  background-color: #f7f5f6;
+}
+.pagenotfoundtwo {
+  background-color: #e5e5e5;
 }
 
 .hovercolor:hover {
@@ -44,6 +47,9 @@ textarea {
   top: -1px;
   border: none;
   z-index: 1020;
+}
+.font-colorss {
+  color: #333657;
 }
 
 .font-colors {
@@ -311,16 +317,11 @@ background-image {
 }
 
 .hr-line {
-  background-color: #ffb000;
-
+  background-color: #333659;
   color: #ffc647;
-
   position: relative;
-
-  transform: matrix(0.7, 0, 0, 1, 0, 1);
-
+  transform: matrix(-1, 0, 0, 1.5, 0, 8);
   height: 2px;
-
   border-radius: 10px;
 }
 
@@ -737,13 +738,20 @@ background-image {
 
 .straightline::before {
   content: "";
-
   position: absolute;
+  height: 389px;
+  width: 2.4px;
+  background-color: #fec345;
+}
+.straightlineabhi {
+  position: relative;
+}
 
-  height: 377px;
-
-  width: 2px;
-
+.straightlineabhi::before {
+  content: "";
+  position: absolute;
+  height: 389px;
+  width: 2.4px;
   background-color: #fec345;
 }
 
@@ -764,7 +772,7 @@ background-image {
 
   position: absolute;
 
-  height: 338px;
+  height: 389px;
 
   width: 2px;
 
@@ -889,70 +897,71 @@ a:hover {
   border-color: #ffae0000 !important;
 }
 
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .straightline::before {
+    height: 409px !important;
+  }
 
-
-.straightline::before {
-    height: 443px !important;
-}
-
-.underline-effectfour::after {
+  .underline-effectfour::after {
     left: -31px;
-    top: 5px;
+  }
 }
-
-
-}
-
-
-
-
-
-
 
 /* Landscape */
-@media only screen 
-  and (min-device-width: 1024px) 
-  and (max-device-width: 1366px) 
-  and (orientation: landscape) 
-  and (-webkit-min-device-pixel-ratio: 2) {
-.straightline::before {
-    height: 413px;
-}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .straightline::before {
+    height: 410px;
+  }
 
-.underline-effectfour::after {
-
+  .underline-effectfour::after {
     left: -35px;
-
-    top: 5px;
+  }
 }
-}
-
 
 /* Portrait */
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px) 
-  and (orientation: portrait) 
-  and (-webkit-min-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .straightline::before {
+    height: 418px;
+  }
 
-
-.straightline::before {
-    height: 440px;
-}
-
-
-.underline-effectfour::after {
-
+  .underline-effectfour::after {
     left: -31px;
-   
-    top: 3px;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
+  .straightlineabhi::before {
+    height: 443px !important;
+  }
+
+  .underline-effectfour::after {
+    left: -31px;
+  }
 }
 
+/* Landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .straightlineabhi::before {
+    height: 443px;
+  }
 
+  .underline-effectfour::after {
+    left: -35px;
+  }
+}
 
+/* Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  .straightlineabhi::before {
+    height: 418px;
+  }
+
+  .underline-effectfour::after {
+    left: -31px;
+  }
+}
+.card h2 {
+  min-height: 83px;
+}
+.card .card-body .para-height {
+  min-height: 250px;
 }

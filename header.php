@@ -16,8 +16,8 @@
 
         <div class="container p-0">
 
-            <a class="navbar-brand" href="index.php"><img id="logo" src="images/logos/logo.png" loading="lazy"
-                    style="width: 180px; alt=" SAP" /></a>
+            <a class="navbar-brand" href="index.php"><img id="logo" src="images/logos/logo.webp" loading="lazy"
+                    style="width: 180px;" alt="sap" /></a>
 
 
 
