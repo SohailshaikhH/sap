@@ -183,7 +183,7 @@ textarea {
 }
 
 .btns:hover {
-  color: #fff;
+  color: #fff !important;
 
   background-position: 100%;
 

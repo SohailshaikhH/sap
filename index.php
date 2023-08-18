@@ -240,7 +240,7 @@ include 'head.php';
 
                                     <div class="row">
 
-                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up">
+                                        <div class="col-lg-3 col-md-3 col-sm-12" data-aos="fade-up">
 
                                             <h2 class="countersize counternumcolor fw-bold counter-numbers plussign  main-color fs-1"
                                                 data-count="20"></h2>
@@ -251,10 +251,10 @@ include 'head.php';
 
                                         </div>
 
-                                        <div class="col-lg-4 col-md-3 col-sm-12" data-aos="fade-up"
+                                        <div class="col-lg-4 col-md-3 col-sm-12 text-center" data-aos="fade-up"
                                             data-aos-duration="1000">
 
-                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussigntwo  main-color fs-1"
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign  main-color fs-1"
                                                 data-count="1000"></h2>
 
 
@@ -263,10 +263,10 @@ include 'head.php';
 
                                         </div>
 
-                                        <div class="col-lg- col-md-3 col-sm-12" data-aos="fade-up"
+                                        <div class="col-lg-5 col-md-3 col-sm-12" data-aos="fade-up"
                                             data-aos-duration="1200">
 
-                                            <h2 class="countersize counternumcolor fw-bold counter-numbers text-center main-color fs-1"
+                                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-center main-color fs-1"
                                                 data-count="100000">
 
                                                 0
@@ -298,7 +298,7 @@ include 'head.php';
 
                         <div class="years-rank">
 
-                            <h2 class="countersize counternumcolor fw-bold counter-numbers text-white fs-1 ps-4"
+                            <h2 class="countersize counternumcolor fw-bold counter-numbers plussign text-white fs-1 ps-4"
                                 data-count="10">
 
                                 0
@@ -1185,39 +1185,39 @@ include 'head.php';
     <script src="js/splide-extension-auto-scroll.min.js"></script>
 
     <script defer>
-    document.addEventListener("DOMContentLoaded", function() {
+        document.addEventListener("DOMContentLoaded", function () {
 
-        new Splide("#featured-product", {
+            new Splide("#featured-product", {
 
-            type: "loop",
+                type: "loop",
 
-            drag: "free",
+                drag: "free",
 
-            focus: "center",
+                focus: "center",
 
-            perPage: 2,
+                perPage: 2,
 
-            arrows: false,
+                arrows: false,
 
-            pagination: false,
+                pagination: false,
 
-            padding: "0%",
+                padding: "0%",
 
-            autoWidth: true,
+                autoWidth: true,
 
-            gap: "40px",
+                gap: "40px",
 
 
 
-            autoScroll: {
+                autoScroll: {
 
-                speed: 0.5,
+                    speed: 0.5,
 
-            },
+                },
 
-        }).mount(window.splide.Extensions);
+            }).mount(window.splide.Extensions);
 
-    });
+        });
     </script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -1227,87 +1227,87 @@ include 'head.php';
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js" defer></script>
 
     <script>
-    $(document).ready(function() {
+        $(document).ready(function () {
 
-        // Scroll-to-Target
+            // Scroll-to-Target
 
-        $(".scroll-to-target").on("click", function() {
+            $(".scroll-to-target").on("click", function () {
 
-            var target = $(this).attr("data-target");
+                var target = $(this).attr("data-target");
 
-            $("html, body").animate({
+                $("html, body").animate({
 
                     scrollTop: $(target).offset().top,
 
                 },
 
-                10000
+                    10000
 
-            );
+                );
 
-        });
-
-
-
-        // WOW Animation
-
-        new WOW().init();
+            });
 
 
 
-        // Fact Counter Animation
+            // WOW Animation
 
-        $(window).on("scroll", function() {
-
-            if ($(".counter-numbers:not(.counted)").length) {
-
-                $(".counter-numbers:not(.counted)").each(function() {
-
-                    var counter = $(this);
-
-                    var targetCount = parseInt(counter.attr("data-count"), 10);
-
-                    var speed = 4000; // Adjust the speed as per your preference
+            new WOW().init();
 
 
 
-                    $({
+            // Fact Counter Animation
 
-                        countNum: 0
+            $(window).on("scroll", function () {
 
-                    }).animate({
+                if ($(".counter-numbers:not(.counted)").length) {
 
-                        countNum: targetCount
+                    $(".counter-numbers:not(.counted)").each(function () {
 
-                    }, {
+                        var counter = $(this);
 
-                        duration: speed,
+                        var targetCount = parseInt(counter.attr("data-count"), 10);
 
-                        easing: "linear",
+                        var speed = 4000; // Adjust the speed as per your preference
 
-                        step: function() {
 
-                            counter.text(Math.floor(this.countNum));
 
-                        },
+                        $({
 
-                        complete: function() {
+                            countNum: 0
 
-                            counter.text(this.countNum);
+                        }).animate({
 
-                            counter.addClass("counted");
+                            countNum: targetCount
 
-                        },
+                        }, {
+
+                            duration: speed,
+
+                            easing: "linear",
+
+                            step: function () {
+
+                                counter.text(Math.floor(this.countNum));
+
+                            },
+
+                            complete: function () {
+
+                                counter.text(this.countNum);
+
+                                counter.addClass("counted");
+
+                            },
+
+                        });
 
                     });
 
-                });
+                }
 
-            }
+            });
 
         });
-
-    });
     </script>
 
 
