@@ -291,10 +291,10 @@ include 'head.php';
 
                 </div>
 
-                <div class="col-lg-5 col-md-12 position-relative" data-aos="fade-up" style="height: 434px">
+                <div class="col-lg-5 col-md-12 position-relative" style="height: 434px">
                     <div class="vertical-line"></div>
 
-                    <div class="">
+                    <div class="" data-aos="fade-up" data-aos-duration="1400">
 
                         <div class="years-rank">
 
@@ -468,7 +468,7 @@ include 'head.php';
 
                         <div class="card border-0 rounded-0 mb-4" data-aos="fade-up">
 
-                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                            <img src="images/image (1).webp" class="card-img-top rounded-0" alt="..." />
 
 
 
@@ -512,7 +512,7 @@ include 'head.php';
                         <div class="card border-0 rounded-0" style="background: none" data-aos="fade-up"
                             data-aos-duration="1300">
 
-                            <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                            <img src="images/30 (1).webp" class="card-img-top rounded-0" alt="..." />
 
                             <div class="card-body cards-body">
 
@@ -573,7 +573,8 @@ include 'head.php';
                                     <div class="card border-0 rounded-0 mb-4" style="background: none"
                                         data-aos="fade-up">
 
-                                        <img src="images/image 3.webp" class="card-img-top rounded-0" alt="..." />
+                                        <img src="images/Untitled-1 (1).webp" class="card-img-top rounded-0"
+                                            alt="..." />
 
                                         <div class="card-body cards-body">
 

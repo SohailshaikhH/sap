@@ -965,3 +965,6 @@ a:hover {
 .card .card-body .para-height {
   min-height: 250px;
 }
+.fa-caret-square-down:before {
+  content: "\f150";
+}

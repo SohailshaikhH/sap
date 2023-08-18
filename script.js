@@ -336,12 +336,10 @@ function validateNumber() {
 AOS.init({
   once: true,
   offset: 200,
-  delay: 0,
+  delay: 100,
   duration: 800,
   easing: "ease-in-out",
   anchorPlacement: "top-bottom",
-  debounceDelay: 50,
-  throttleDelay: 99,
 });
 
 // /validation/
